@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://github.com/EliteArrow/nekora-sans-font-family/raw/main/NekoraSans-Fonts.zip">
-    <img alt="Download Nekora Sans fonts (ZIP, 5.9 MB)" src="https://img.shields.io/badge/%E2%AC%87%20%20Download%20Nekora%20Sans-ZIP%20%C2%B7%205.9%20MB-C8102E?style=for-the-badge" height="48">
+    <img alt="Download Nekora Sans fonts (ZIP, 5.8 MB)" src="https://img.shields.io/badge/%E2%AC%87%20%20Download%20Nekora%20Sans-ZIP%20%C2%B7%205.8%20MB-C8102E?style=for-the-badge" height="48">
   </a>
 </p>
 
