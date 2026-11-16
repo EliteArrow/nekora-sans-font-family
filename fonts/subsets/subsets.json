@@ -1,0 +1,26 @@
+{
+ "latin": {
+  "codepoints": 242,
+  "bytes": 143744
+ },
+ "latin-extended": {
+  "codepoints": 202,
+  "bytes": 82092
+ },
+ "vietnamese": {
+  "codepoints": 110,
+  "bytes": 30564
+ },
+ "greek": {
+  "codepoints": 73,
+  "bytes": 47232
+ },
+ "cyrillic": {
+  "codepoints": 100,
+  "bytes": 74772
+ },
+ "symbols": {
+  "codepoints": 49,
+  "bytes": 16908
+ }
+}
