@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="docs/images/orange-sans-banner.png" alt="Orange Sans, a free open-source geometric sans-serif variable font family" width="100%">
+  <img src="docs/images/nekora-sans-banner.png" alt="Nekora Sans, a free open-source geometric sans-serif variable font family" width="100%">
 </p>
 
-<h1 align="center">Orange Sans</h1>
+<h1 align="center">Nekora Sans</h1>
 
 <p align="center">
   <b>A free, open-source geometric sans-serif font family.</b><br>
@@ -10,8 +10,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/EliteArrow/orange--Sans-font-family/raw/main/OrangeSans-Fonts.zip">
-    <img alt="Download Orange Sans fonts (ZIP, 5.7 MB)" src="https://img.shields.io/badge/%E2%AC%87%20%20Download%20Orange%20Sans-ZIP%20%C2%B7%205.7%20MB-C8102E?style=for-the-badge" height="48">
+  <a href="https://github.com/EliteArrow/nekora-sans-font-family/raw/main/NekoraSans-Fonts.zip">
+    <img alt="Download Nekora Sans fonts (ZIP, 5.7 MB)" src="https://img.shields.io/badge/%E2%AC%87%20%20Download%20Nekora%20Sans-ZIP%20%C2%B7%205.7%20MB-C8102E?style=for-the-badge" height="48">
   </a>
 </p>
 
@@ -28,28 +28,28 @@
 
 ## Download and install
 
-**[⬇ Download OrangeSans-Fonts.zip](https://github.com/EliteArrow/orange--Sans-font-family/raw/main/OrangeSans-Fonts.zip)** — everything in one file.
+**[⬇ Download NekoraSans-Fonts.zip](https://github.com/EliteArrow/nekora-sans-font-family/raw/main/NekoraSans-Fonts.zip)** — everything in one file.
 
 1. Unzip it.
 2. **Mac:** open the `static-otf` folder, select all the files, double-click, then choose *Install*.
-   **Windows:** open the `static` → `Orange Sans` folder, select all the files, right-click, then choose *Install*.
-3. Pick **Orange Sans** in your app's font menu.
+   **Windows:** open the `static` → `Nekora Sans` folder, select all the files, right-click, then choose *Install*.
+3. Pick **Nekora Sans** in your app's font menu.
 
 | In the ZIP | What it is for |
 |---|---|
 | `static-otf/` | Desktop fonts for Mac, Figma, Sketch, Adobe apps (9 weights) |
-| `static/OrangeSans/` | Desktop fonts for Windows and Office; app embedding (9 weights, TTF) |
-| `static/OrangeSansDisplay/` | A tighter cut for large headlines (9 weights) |
-| `static/OrangeSansCondensed/` | A narrow cut for tight spaces (9 weights) |
-| `variable/` | One variable font with every style: `OrangeSans-VF.ttf` and `OrangeSans-VF.woff2` |
+| `static/NekoraSans/` | Desktop fonts for Windows and Office; app embedding (9 weights, TTF) |
+| `static/NekoraSansDisplay/` | A tighter cut for large headlines (9 weights) |
+| `static/NekoraSansCondensed/` | A narrow cut for tight spaces (9 weights) |
+| `variable/` | One variable font with every style: `NekoraSans-VF.ttf` and `NekoraSans-VF.woff2` |
 | `webfonts/` | WOFF2 files for websites |
 | `OFL.txt` | The licence |
 
 Individual files are also in the [`fonts`](fonts) folder of this repository.
 
-## About Orange Sans
+## About Nekora Sans
 
-Orange Sans is a modern geometric sans-serif: round bowls, even strokes and a tall x-height, with humanist touches that keep text easy to read. It works for branding, headlines, interfaces, apps, presentations and long-form text on screen.
+Nekora Sans is a modern geometric sans-serif: round bowls, even strokes and a tall x-height, with humanist touches that keep text easy to read. It works for branding, headlines, interfaces, apps, presentations and long-form text on screen.
 
 - **A full family.** Nine weights in three widths, and a display cut for large sizes.
 - **Variable.** Weight, width, optical size and grade in a single file.
@@ -59,7 +59,7 @@ Orange Sans is a modern geometric sans-serif: round bowls, even strokes and a ta
 - **Free for commercial use** under the SIL Open Font License.
 
 <p align="center">
-  <img src="docs/images/weight.png" alt="Orange Sans font weights: Thin, ExtraLight, Light, Regular, Medium, SemiBold, Bold, ExtraBold, Black" width="100%">
+  <img src="docs/images/weight.png" alt="Nekora Sans font weights: Thin, ExtraLight, Light, Regular, Medium, SemiBold, Bold, ExtraBold, Black" width="100%">
 </p>
 
 ## Styles
@@ -79,7 +79,7 @@ Orange Sans is a modern geometric sans-serif: round bowls, even strokes and a ta
 All 27 styles are named instances of the variable font. Static files are provided for Normal, Condensed and Display; Extended is available through the variable font.
 
 <p align="center">
-  <img src="docs/images/width.png" alt="Orange Sans width axis from Condensed to Extended" width="100%">
+  <img src="docs/images/width.png" alt="Nekora Sans width axis from Condensed to Extended" width="100%">
 </p>
 
 ## Variable axes
@@ -93,18 +93,18 @@ All 27 styles are named instances of the variable font. Static files are provide
 
 | | |
 |---|---|
-| <img src="docs/images/optical-size.png" alt="Orange Sans optical size axis from caption to display"> | <img src="docs/images/grade.png" alt="Orange Sans grade axis changes stroke weight without changing text width"> |
+| <img src="docs/images/optical-size.png" alt="Nekora Sans optical size axis from caption to display"> | <img src="docs/images/grade.png" alt="Nekora Sans grade axis changes stroke weight without changing text width"> |
 
 ## Character set
 
 899 glyphs covering 774 characters, checked complete for 41 languages: English, Spanish, French, German, Italian, Portuguese, Dutch, Polish, Czech, Slovak, Hungarian, Romanian, Turkish, Vietnamese, Greek, Russian, Ukrainian, Bulgarian, Serbian, Catalan, Danish, Norwegian, Swedish, Finnish, Icelandic, Estonian, Latvian, Lithuanian, Croatian, Slovenian, Albanian, Maltese, Indonesian, Malay, Filipino, Swahili, Welsh, Irish, Azerbaijani, Belarusian and Macedonian.
 
 <p align="center">
-  <img src="docs/images/character-set.png" alt="Orange Sans complete character set: Latin, Greek, Cyrillic, Vietnamese, punctuation, currency and symbols" width="100%">
+  <img src="docs/images/character-set.png" alt="Nekora Sans complete character set: Latin, Greek, Cyrillic, Vietnamese, punctuation, currency and symbols" width="100%">
 </p>
 
 <p align="center">
-  <img src="docs/images/numerals-symbols-punctuation.png" alt="Orange Sans numerals, fractions, currency symbols, punctuation and arrows" width="100%">
+  <img src="docs/images/numerals-symbols-punctuation.png" alt="Nekora Sans numerals, fractions, currency symbols, punctuation and arrows" width="100%">
 </p>
 
 ## OpenType features
@@ -129,9 +129,9 @@ All 27 styles are named instances of the variable font. Static files are provide
 Copy the `fonts` and `css` folders to your site and link the stylesheet:
 
 ```html
-<link rel="stylesheet" href="css/orange-sans.css">
+<link rel="stylesheet" href="css/nekora-sans.css">
 <style>
-  body { font-family: var(--orange-sans); }
+  body { font-family: var(--nekora-sans); }
   h1   { font-weight: 800; }
 </style>
 ```
@@ -140,14 +140,14 @@ Or write the rule yourself:
 
 ```css
 @font-face {
-  font-family: 'Orange Sans';
-  src: url('fonts/variable/OrangeSans-VF.woff2') format('woff2');
+  font-family: 'Nekora Sans';
+  src: url('fonts/variable/NekoraSans-VF.woff2') format('woff2');
   font-weight: 100 900;
   font-stretch: 75% 125%;
   font-display: swap;
 }
 
-body     { font-family: 'Orange Sans', system-ui, sans-serif; font-optical-sizing: auto; }
+body     { font-family: 'Nekora Sans', system-ui, sans-serif; font-optical-sizing: auto; }
 .narrow  { font-stretch: 75%; }
 .heavier { font-variation-settings: 'GRAD' 80; }
 .numbers { font-variant-numeric: tabular-nums; }
@@ -155,11 +155,11 @@ body     { font-family: 'Orange Sans', system-ui, sans-serif; font-optical-sizin
 
 The variable web font is 308 KB. Smaller per-script files that load on demand are in [`fonts/subsets`](fonts/subsets) with their own stylesheet.
 
-## Orange Sans as an alternative to Gotham, Netflix Sans, Inter and Roboto Flex
+## Nekora Sans as an alternative to Gotham, Netflix Sans, Inter and Roboto Flex
 
-If you are looking for a **free Gotham alternative** or an **open-source font similar to Netflix Sans**, this is where Orange Sans sits. The numbers are measured from Orange Sans and from licensed copies of each family, in units per 1000 em at the regular weight.
+If you are looking for a **free Gotham alternative** or an **open-source font similar to Netflix Sans**, this is where Nekora Sans sits. The numbers are measured from Nekora Sans and from licensed copies of each family, in units per 1000 em at the regular weight.
 
-| | **Orange Sans** | Gotham Book | Netflix Sans | Inter | Roboto Flex |
+| | **Nekora Sans** | Gotham Book | Netflix Sans | Inter | Roboto Flex |
 |---|---:|---:|---:|---:|---:|
 | Cap height | **700** | 700 | 696 | 728 | 711 |
 | x-height | **522** | 517 | 512 | 546 | 514 |
@@ -168,39 +168,39 @@ If you are looking for a **free Gotham alternative** or an **open-source font si
 | Mean lowercase advance | **522** | 566 | 516 | 536 | 495 |
 | Licence | **OFL, free** | Commercial | Proprietary | OFL, free | OFL, free |
 
-- **Gotham:** the same cap height and nearly the same x-height and round widths, so headlines have a similar geometric presence. Orange Sans is spaced about 8 % tighter and is a little darker at regular weight.
+- **Gotham:** the same cap height and nearly the same x-height and round widths, so headlines have a similar geometric presence. Nekora Sans is spaced about 8 % tighter and is a little darker at regular weight.
 - **Netflix Sans:** very close in overall width and colour, with a slightly taller x-height.
-- **Inter:** Orange Sans has rounder bowls and a lower x-height, so it reads more like a brand typeface than a system font.
+- **Inter:** Nekora Sans has rounder bowls and a lower x-height, so it reads more like a brand typeface than a system font.
 - **Roboto Flex:** the same set of weight, width, optical size and grade axes, in a wider, more geometric design.
 
-Orange Sans is an original design. It is not derived from, affiliated with or endorsed by any of these typefaces or their owners, and it will not match any of them letter for letter. The names above are trademarks of their respective owners and are used only for comparison.
+Nekora Sans is an original design. It is not derived from, affiliated with or endorsed by any of these typefaces or their owners, and it will not match any of them letter for letter. The names above are trademarks of their respective owners and are used only for comparison.
 
 ## Good to know
 
-Orange Sans 1.000 is a first release.
+Nekora Sans 1.000 is a first release.
 
 - The letterforms are generated by a parametric program and have not been reviewed by a professional type designer. The heaviest weights of `S`, `s`, `3` and `5` are the least refined.
 - Rendering was tested in software (Chromium, FreeType, HarfBuzz), not on a range of physical devices.
 - There are no italics and no ligatures.
 - Arabic, Hebrew, Indic scripts, Thai, Chinese, Japanese and Korean are not included.
-- No formal trademark clearance has been done for the name “Orange Sans”.
+- No formal trademark clearance has been done for the name “Nekora Sans”.
 
 ## FAQ
 
-**Is Orange Sans free for commercial use?**
+**Is Nekora Sans free for commercial use?**
 Yes. The SIL Open Font License 1.1 allows you to use, embed and redistribute the fonts in personal and commercial work. The fonts cannot be sold on their own. See [OFL.txt](OFL.txt).
 
-**Is Orange Sans a drop-in replacement for Gotham or Netflix Sans?**
+**Is Nekora Sans a drop-in replacement for Gotham or Netflix Sans?**
 No. It has similar proportions and tone, but different letterforms and spacing.
 
 **Which file should I install?**
-On a Mac or for design tools, the OTF files in `static-otf`. On Windows, the TTF files in `static/OrangeSans`. For a website, `variable/OrangeSans-VF.woff2`.
+On a Mac or for design tools, the OTF files in `static-otf`. On Windows, the TTF files in `static/NekoraSans`. For a website, `variable/NekoraSans-VF.woff2`.
 
-**Does Orange Sans have italics?**
+**Does Nekora Sans have italics?**
 Not yet.
 
 ## Licence
 
-Orange Sans is licensed under the [SIL Open Font License 1.1](OFL.txt). More detail on provenance is in [LICENSE.md](LICENSE.md).
+Nekora Sans is licensed under the [SIL Open Font License 1.1](OFL.txt). More detail on provenance is in [LICENSE.md](LICENSE.md).
 
 <sub>Keywords: free geometric sans-serif font, free Gotham alternative, open-source Gotham alternative, font similar to Netflix Sans, Netflix Sans alternative, variable font, free font family, free commercial-use font, modern sans-serif, branding font, UI font, web font, WOFF2, OTF, TTF, Cyrillic, Greek, Vietnamese, SIL OFL.</sub>

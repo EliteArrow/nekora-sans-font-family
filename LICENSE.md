@@ -1,26 +1,26 @@
-# Orange Sans — licence and provenance
+# Nekora Sans — licence and provenance
 
 ## Summary
 
-The Orange Sans fonts are licensed under the SIL Open Font License 1.1 (text below). No Reserved Font Name is declared.
+The Nekora Sans fonts are licensed under the SIL Open Font License 1.1 (text below). No Reserved Font Name is declared.
 Images in `docs/images` are licensed under CC BY 4.0. This file is not legal advice.
 
 ## Provenance
 
-- Every outline in Orange Sans is produced by a parametric generator written for this project.
+- Every outline in Nekora Sans is produced by a parametric generator written for this project.
 - Four reference families (Gotham, Inter, Roboto Flex, Netflix Sans) were used for measurement only: vertical metrics, stem
   widths, advance widths and kerning magnitudes. No outline, glyph, kerning table, hinting or feature code from any of them was
   copied, traced, interpolated or converted, and none of their files is included in this repository.
 
 ## The name
 
-The family was first drafted under the working title “Orion” and renamed Orange Sans because that name was already in use for
-typefaces. No formal trademark search or clearance has been carried out for “Orange Sans” either, and nothing here implies
-that the name is available.
+The family was drafted under the working titles “Orion” and “Orange Sans” and renamed Nekora Sans to avoid names already in
+use. A web search found no typeface with this exact name; similar names exist (Nokora, Necora, Nexora). No formal trademark
+search or clearance has been carried out, and nothing here implies that the name is available.
 
 ## SIL Open Font License 1.1
 
-Copyright 2026 The Orange Sans Project Authors
+Copyright 2026 The Nekora Sans Project Authors
 
 ```
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
