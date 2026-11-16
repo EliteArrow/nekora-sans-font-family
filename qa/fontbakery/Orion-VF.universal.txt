@@ -1,2 +1,0 @@
-/usr/local/lib/python3.13/site-packages/fontbakery/fonts_profile.py:103: UserWarning: Failed to load fontbakery.checks.vendorspecific.googlefonts.glyphsets.shape_languages: No module named 'glyphsets'
-  warnings.warn("Failed to load %s: %s" % (import_path, e))

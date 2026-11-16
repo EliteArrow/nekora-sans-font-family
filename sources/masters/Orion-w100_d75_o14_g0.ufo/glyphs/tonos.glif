@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="tonos" format="2">
-  <advance width="166"/>
-  <unicode hex="0384"/>
-  <anchor x="80" y="660" name="top"/>
-  <outline>
-    <component base="tonoscomb" xOffset="80"/>
-  </outline>
-</glyph>
