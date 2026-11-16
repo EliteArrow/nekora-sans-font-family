@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="twothirds" format="2">
+  <advance width="818"/>
+  <unicode hex="2154"/>
+  <anchor x="177" y="280" name="bottom"/>
+  <anchor x="271" y="280" name="ogonek"/>
+  <anchor x="177" y="810" name="top"/>
+  <outline>
+    <component base="two.numr"/>
+    <component base="fraction" xOffset="354"/>
+    <component base="three.dnom" xOffset="506"/>
+  </outline>
+</glyph>

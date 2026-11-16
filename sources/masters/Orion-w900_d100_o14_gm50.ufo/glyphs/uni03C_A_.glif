@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni03CA" format="2">
+  <advance width="554"/>
+  <unicode hex="03CA"/>
+  <anchor x="272" y="0" name="bottom"/>
+  <anchor x="318" y="0" name="ogonek"/>
+  <anchor x="248" y="714" name="top"/>
+  <outline>
+    <component base="iota" xOffset="109"/>
+    <component base="dieresiscomb" xOffset="248"/>
+  </outline>
+</glyph>

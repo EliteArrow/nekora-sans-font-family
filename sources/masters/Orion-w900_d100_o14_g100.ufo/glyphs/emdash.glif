@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="emdash" format="2">
+  <advance width="916"/>
+  <unicode hex="2014"/>
+  <unicode hex="2015"/>
+  <anchor x="458" y="0" name="bottom"/>
+  <anchor x="804" y="0" name="ogonek"/>
+  <anchor x="458" y="534" name="top"/>
+  <outline>
+    <contour>
+      <point x="908" y="201" type="line"/>
+      <point x="908" y="350" type="line"/>
+      <point x="8" y="350" type="line"/>
+      <point x="8" y="201" type="line"/>
+    </contour>
+  </outline>
+</glyph>

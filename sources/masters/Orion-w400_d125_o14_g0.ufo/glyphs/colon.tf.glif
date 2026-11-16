@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="colon.tf" format="2">
+  <advance width="349"/>
+  <anchor x="175" y="0" name="bottom"/>
+  <anchor x="186" y="0" name="ogonek"/>
+  <anchor x="175" y="522" name="top"/>
+  <outline>
+    <component base="colon" xOffset="51"/>
+  </outline>
+</glyph>

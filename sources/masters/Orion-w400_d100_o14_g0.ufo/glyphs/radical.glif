@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="radical" format="2">
+  <advance width="618"/>
+  <unicode hex="221A"/>
+  <anchor x="317" y="0" name="bottom"/>
+  <anchor x="544" y="0" name="ogonek"/>
+  <anchor x="317" y="742" name="top"/>
+  <outline>
+    <contour>
+      <point x="286" y="0" type="line"/>
+      <point x="590" y="760" type="line"/>
+      <point x="512" y="760" type="line"/>
+      <point x="252" y="111" type="line"/>
+      <point x="177" y="308" type="line"/>
+      <point x="83" y="308" type="line"/>
+      <point x="200" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="177" y="235" type="line"/>
+      <point x="177" y="308" type="line"/>
+      <point x="44" y="308" type="line"/>
+      <point x="44" y="235" type="line"/>
+    </contour>
+  </outline>
+</glyph>

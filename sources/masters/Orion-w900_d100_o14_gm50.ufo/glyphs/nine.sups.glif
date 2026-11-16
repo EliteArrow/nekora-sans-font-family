@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="nine.sups" format="2">
+  <advance width="361"/>
+  <unicode hex="2079"/>
+  <anchor x="181" y="392" name="bottom"/>
+  <anchor x="239" y="392" name="ogonek"/>
+  <anchor x="181" y="926" name="top"/>
+  <outline>
+    <component base="nine.dnom" yOffset="392"/>
+  </outline>
+</glyph>

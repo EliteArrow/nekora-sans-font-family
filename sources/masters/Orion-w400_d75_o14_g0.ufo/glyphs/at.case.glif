@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="at.case" format="2">
+  <advance width="777"/>
+  <anchor x="388" y="72" name="bottom"/>
+  <anchor x="692" y="72" name="ogonek"/>
+  <anchor x="388" y="814" name="top"/>
+  <outline>
+    <component base="at" yOffset="72"/>
+  </outline>
+</glyph>

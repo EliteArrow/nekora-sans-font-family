@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hyphen" format="2">
+  <advance width="372"/>
+  <unicode hex="002D"/>
+  <unicode hex="2010"/>
+  <unicode hex="2011"/>
+  <anchor x="186" y="0" name="bottom"/>
+  <anchor x="238" y="0" name="ogonek"/>
+  <anchor x="186" y="534" name="top"/>
+  <outline>
+    <contour>
+      <point x="342" y="210" type="line"/>
+      <point x="342" y="341" type="line"/>
+      <point x="30" y="341" type="line"/>
+      <point x="30" y="210" type="line"/>
+    </contour>
+  </outline>
+</glyph>

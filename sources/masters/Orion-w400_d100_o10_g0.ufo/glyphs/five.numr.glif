@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="five.numr" format="2">
+  <advance width="329"/>
+  <anchor x="164" y="280" name="bottom"/>
+  <anchor x="246" y="280" name="ogonek"/>
+  <anchor x="164" y="810" name="top"/>
+  <outline>
+    <component base="five.dnom" yOffset="280"/>
+  </outline>
+</glyph>

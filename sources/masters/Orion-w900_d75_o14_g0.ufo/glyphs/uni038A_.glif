@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni038A" format="2">
+  <advance width="424"/>
+  <unicode hex="038A"/>
+  <anchor x="303" y="0" name="bottom"/>
+  <anchor x="295" y="0" name="ogonek"/>
+  <anchor x="303" y="700" name="top"/>
+  <outline>
+    <component base="Iota" xOffset="183"/>
+    <component base="tonoscomb.case" xOffset="31"/>
+  </outline>
+</glyph>

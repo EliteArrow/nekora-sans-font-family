@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="periodcentered" format="2">
+  <advance width="270"/>
+  <unicode hex="00B7"/>
+  <anchor x="135" y="0" name="bottom"/>
+  <anchor x="153" y="0" name="ogonek"/>
+  <anchor x="135" y="530" name="top"/>
+  <outline>
+    <contour>
+      <point x="202" y="314"/>
+      <point x="184" y="332"/>
+      <point x="135" y="332" type="curve"/>
+      <point x="86" y="332"/>
+      <point x="68" y="314"/>
+      <point x="68" y="265" type="curve"/>
+      <point x="68" y="216"/>
+      <point x="86" y="198"/>
+      <point x="135" y="198" type="curve"/>
+      <point x="184" y="198"/>
+      <point x="202" y="216"/>
+      <point x="202" y="265" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

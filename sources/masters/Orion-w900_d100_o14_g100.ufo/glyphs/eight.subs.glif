@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eight.subs" format="2">
+  <advance width="368"/>
+  <unicode hex="2088"/>
+  <anchor x="184" y="-140" name="bottom"/>
+  <anchor x="245" y="-140" name="ogonek"/>
+  <anchor x="184" y="394" name="top"/>
+  <outline>
+    <component base="eight.dnom" yOffset="-140"/>
+  </outline>
+</glyph>

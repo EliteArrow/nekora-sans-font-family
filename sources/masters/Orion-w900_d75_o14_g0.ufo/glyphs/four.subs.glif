@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="four.subs" format="2">
+  <advance width="297"/>
+  <unicode hex="2084"/>
+  <anchor x="148" y="-140" name="bottom"/>
+  <anchor x="202" y="-140" name="ogonek"/>
+  <anchor x="148" y="394" name="top"/>
+  <outline>
+    <component base="four.dnom" yOffset="-140"/>
+  </outline>
+</glyph>

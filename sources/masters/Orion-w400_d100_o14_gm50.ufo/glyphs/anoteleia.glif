@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="anoteleia" format="2">
+  <advance width="231"/>
+  <unicode hex="0387"/>
+  <anchor x="116" y="219" name="bottom"/>
+  <anchor x="126" y="219" name="ogonek"/>
+  <anchor x="116" y="741" name="top"/>
+  <outline>
+    <component base="periodcentered" yOffset="219"/>
+  </outline>
+</glyph>

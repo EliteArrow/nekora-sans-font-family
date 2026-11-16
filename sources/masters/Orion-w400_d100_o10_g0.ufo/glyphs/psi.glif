@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="psi" format="2">
+  <advance width="703"/>
+  <unicode hex="03C8"/>
+  <anchor x="351" y="0" name="bottom"/>
+  <anchor x="579" y="0" name="ogonek"/>
+  <anchor x="351" y="742" name="top"/>
+  <outline>
+    <contour>
+      <point x="76" y="232" type="line"/>
+      <point x="76" y="85"/>
+      <point x="185" y="-12"/>
+      <point x="351" y="-12" type="curve"/>
+      <point x="518" y="-12"/>
+      <point x="627" y="85"/>
+      <point x="627" y="232" type="curve"/>
+      <point x="627" y="530" type="line"/>
+      <point x="539" y="530" type="line"/>
+      <point x="539" y="232" type="line"/>
+      <point x="539" y="133"/>
+      <point x="465" y="68"/>
+      <point x="351" y="68" type="curve"/>
+      <point x="238" y="68"/>
+      <point x="163" y="133"/>
+      <point x="163" y="232" type="curve"/>
+      <point x="163" y="530" type="line"/>
+      <point x="76" y="530" type="line"/>
+    </contour>
+    <contour>
+      <point x="393" y="-204" type="line"/>
+      <point x="393" y="742" type="line"/>
+      <point x="309" y="742" type="line"/>
+      <point x="309" y="-204" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="five.sups" format="2">
+  <advance width="314"/>
+  <unicode hex="2075"/>
+  <anchor x="157" y="392" name="bottom"/>
+  <anchor x="238" y="392" name="ogonek"/>
+  <anchor x="157" y="914" name="top"/>
+  <outline>
+    <component base="five.dnom" yOffset="392"/>
+  </outline>
+</glyph>

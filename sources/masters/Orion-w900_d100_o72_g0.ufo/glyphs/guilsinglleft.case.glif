@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="guilsinglleft.case" format="2">
+  <advance width="372"/>
+  <anchor x="167" y="88" name="bottom"/>
+  <anchor x="159" y="88" name="ogonek"/>
+  <anchor x="167" y="612" name="top"/>
+  <outline>
+    <component base="guilsinglleft" yOffset="88"/>
+  </outline>
+</glyph>

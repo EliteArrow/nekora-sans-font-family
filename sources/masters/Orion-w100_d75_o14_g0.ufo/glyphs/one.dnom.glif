@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="one.dnom" format="2">
+  <advance width="184"/>
+  <anchor x="83" y="0" name="bottom"/>
+  <anchor x="130" y="0" name="ogonek"/>
+  <anchor x="83" y="518" name="top"/>
+  <outline>
+    <contour>
+      <point x="144" y="0" type="line"/>
+      <point x="144" y="420" type="line"/>
+      <point x="121" y="420" type="line"/>
+      <point x="121" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="22" y="330" type="line"/>
+      <point x="22" y="305" type="line"/>
+      <point x="133" y="396" type="line"/>
+      <point x="133" y="420" type="line"/>
+    </contour>
+  </outline>
+</glyph>

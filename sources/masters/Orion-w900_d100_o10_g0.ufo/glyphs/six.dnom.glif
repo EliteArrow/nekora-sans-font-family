@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="six.dnom" format="2">
+  <advance width="372"/>
+  <anchor x="186" y="0" name="bottom"/>
+  <anchor x="251" y="0" name="ogonek"/>
+  <anchor x="186" y="540" name="top"/>
+  <outline>
+    <contour>
+      <point x="350" y="217"/>
+      <point x="286" y="270"/>
+      <point x="186" y="270" type="curve"/>
+      <point x="85" y="270"/>
+      <point x="22" y="217"/>
+      <point x="22" y="134" type="curve"/>
+      <point x="22" y="47"/>
+      <point x="85" y="-8"/>
+      <point x="186" y="-8" type="curve"/>
+      <point x="286" y="-8"/>
+      <point x="350" y="47"/>
+      <point x="350" y="134" type="curve"/>
+    </contour>
+    <contour>
+      <point x="240" y="100"/>
+      <point x="223" y="79"/>
+      <point x="186" y="79" type="curve"/>
+      <point x="149" y="79"/>
+      <point x="132" y="100"/>
+      <point x="132" y="134" type="curve"/>
+      <point x="132" y="167"/>
+      <point x="149" y="188"/>
+      <point x="186" y="188" type="curve"/>
+      <point x="223" y="188"/>
+      <point x="240" y="167"/>
+      <point x="240" y="134" type="curve"/>
+    </contour>
+    <contour>
+      <point x="132" y="260"/>
+      <point x="152" y="341"/>
+      <point x="206" y="341" type="curve"/>
+      <point x="222" y="341"/>
+      <point x="231" y="331"/>
+      <point x="235" y="313" type="curve"/>
+      <point x="310" y="381" type="line"/>
+      <point x="287" y="411"/>
+      <point x="251" y="428"/>
+      <point x="206" y="428" type="curve"/>
+      <point x="93" y="428"/>
+      <point x="22" y="314"/>
+      <point x="22" y="134" type="curve"/>
+      <point x="132" y="134" type="line"/>
+    </contour>
+  </outline>
+</glyph>

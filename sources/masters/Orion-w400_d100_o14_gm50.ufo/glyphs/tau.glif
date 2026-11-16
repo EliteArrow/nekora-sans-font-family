@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tau" format="2">
+  <advance width="475"/>
+  <unicode hex="03C4"/>
+  <anchor x="238" y="0" name="bottom"/>
+  <anchor x="394" y="0" name="ogonek"/>
+  <anchor x="238" y="522" name="top"/>
+  <outline>
+    <contour>
+      <point x="440" y="455" type="line"/>
+      <point x="440" y="522" type="line"/>
+      <point x="35" y="522" type="line"/>
+      <point x="35" y="455" type="line"/>
+    </contour>
+    <contour>
+      <point x="183" y="190" type="line"/>
+      <point x="183" y="77"/>
+      <point x="250" y="0"/>
+      <point x="349" y="0" type="curve"/>
+      <point x="349" y="67" type="line"/>
+      <point x="296" y="67"/>
+      <point x="260" y="117"/>
+      <point x="260" y="190" type="curve"/>
+      <point x="260" y="522" type="line"/>
+      <point x="183" y="522" type="line"/>
+    </contour>
+  </outline>
+</glyph>

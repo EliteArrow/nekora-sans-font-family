@@ -1,0 +1,253 @@
+{
+ "note": "Units per 1000 em. Reference values measured from the licensed reference fonts; only these numbers are stored.",
+ "columns": [
+  {
+   "label": "Orion Regular",
+   "metrics": {
+    "cap": 700.0,
+    "xh": 522.0,
+    "asc": 742.0,
+    "desc": -204.0,
+    "stemUC": 88.0,
+    "stemLC": 180.0,
+    "O_w": 692.0,
+    "o_w": 516.0,
+    "o_overshoot": 11.0,
+    "adv_n": 579.0,
+    "adv_H": 732.0,
+    "adv_o": 604.0,
+    "avg_lc_adv": 521.5,
+    "avg_uc_adv": 673.9,
+    "space": 256.0,
+    "period_w": 113.0,
+    "hyphen_th": 73.0,
+    "fig": 711.0,
+    "adv_0": 593.0
+   }
+  },
+  {
+   "label": "Gotham Book",
+   "metrics": {
+    "cap": 700.0,
+    "xh": 517.0,
+    "asc": 730.0,
+    "desc": -160.0,
+    "stemUC": 79.0,
+    "stemLC": 77.0,
+    "O_w": 714.0,
+    "o_w": 539.0,
+    "o_overshoot": 12.0,
+    "adv_n": 616.0,
+    "adv_H": 760.0,
+    "adv_o": 646.0,
+    "avg_lc_adv": 565.6,
+    "avg_uc_adv": 725.5,
+    "space": 300.0,
+    "period_w": 92.0,
+    "hyphen_th": 81.0,
+    "fig": 712.0,
+    "adv_0": 715.0
+   }
+  },
+  {
+   "label": "Inter (wght 400)",
+   "metrics": {
+    "cap": 727.5,
+    "xh": 545.9,
+    "asc": 727.5,
+    "desc": -204.1,
+    "stemUC": 92.8,
+    "stemLC": 87.9,
+    "O_w": 645.5,
+    "o_w": 498.0,
+    "o_overshoot": 11.7,
+    "adv_n": 590.8,
+    "adv_H": 743.2,
+    "adv_o": 599.6,
+    "avg_lc_adv": 536.3,
+    "avg_uc_adv": 681.5,
+    "space": 281.2,
+    "period_w": 131.8,
+    "hyphen_th": 81.1,
+    "fig": 737.3,
+    "adv_0": 630.9
+   }
+  },
+  {
+   "label": "Roboto Flex (wght 400)",
+   "metrics": {
+    "cap": 710.9,
+    "xh": 513.7,
+    "asc": 750.0,
+    "desc": -203.1,
+    "stemUC": 93.8,
+    "stemLC": 90.8,
+    "O_w": 600.6,
+    "o_w": 484.4,
+    "o_overshoot": 14.6,
+    "adv_n": 555.7,
+    "adv_H": 711.9,
+    "adv_o": 567.4,
+    "avg_lc_adv": 494.6,
+    "avg_uc_adv": 629.7,
+    "space": 244.1,
+    "period_w": 127.0,
+    "hyphen_th": 84.0,
+    "fig": 725.6,
+    "adv_0": 564.5
+   }
+  },
+  {
+   "label": "Netflix Sans Regular",
+   "metrics": {
+    "cap": 696.0,
+    "xh": 512.0,
+    "asc": 725.0,
+    "desc": -205.0,
+    "stemUC": 95.0,
+    "stemLC": 89.0,
+    "O_w": 688.0,
+    "o_w": 494.0,
+    "o_overshoot": 14.0,
+    "adv_n": 575.0,
+    "adv_H": 767.0,
+    "adv_o": 580.0,
+    "avg_lc_adv": 515.9,
+    "avg_uc_adv": 691.3,
+    "space": 233.0,
+    "period_w": 132.0,
+    "hyphen_th": 79.0,
+    "fig": 711.0,
+    "adv_0": 612.0
+   }
+  }
+ ],
+ "weights": [
+  {
+   "style": "Thin",
+   "wght": 100,
+   "orion": {
+    "xh": 518.0,
+    "stemUC": 27.0,
+    "stemLC": 132.0,
+    "O_w": 680.0,
+    "adv_n": 571.0,
+    "avg_lc_adv": 515.1
+   },
+   "gotham": {
+    "xh": 500.0,
+    "stemUC": 22.0,
+    "stemLC": 21.0,
+    "O_w": 696.0,
+    "adv_n": 608.0,
+    "avg_lc_adv": 539.2
+   },
+   "gotham_style": "Thin"
+  },
+  {
+   "style": "Light",
+   "wght": 300,
+   "orion": {
+    "xh": 520.7,
+    "stemUC": 67.7,
+    "stemLC": 164.0,
+    "O_w": 688.0,
+    "adv_n": 576.3,
+    "avg_lc_adv": 519.4
+   },
+   "gotham": {
+    "xh": 510.0,
+    "stemUC": 52.0,
+    "stemLC": 49.0,
+    "O_w": 704.0,
+    "adv_n": 613.0,
+    "avg_lc_adv": 560.6
+   },
+   "gotham_style": "Light"
+  },
+  {
+   "style": "Regular",
+   "wght": 400,
+   "orion": {
+    "xh": 522.0,
+    "stemUC": 88.0,
+    "stemLC": 180.0,
+    "O_w": 692.0,
+    "adv_n": 579.0,
+    "avg_lc_adv": 521.5
+   },
+   "gotham": {
+    "xh": 517.0,
+    "stemUC": 79.0,
+    "stemLC": 77.0,
+    "O_w": 714.0,
+    "adv_n": 616.0,
+    "avg_lc_adv": 565.6
+   },
+   "gotham_style": "Book"
+  },
+  {
+   "style": "Medium",
+   "wght": 500,
+   "orion": {
+    "xh": 524.4,
+    "stemUC": 109.6,
+    "stemLC": 199.6,
+    "O_w": 703.2,
+    "adv_n": 584.2,
+    "avg_lc_adv": 528.1
+   },
+   "gotham": {
+    "xh": 528.0,
+    "stemUC": 123.0,
+    "stemLC": 122.0,
+    "O_w": 732.0,
+    "adv_n": 620.0,
+    "avg_lc_adv": 573.7
+   },
+   "gotham_style": "Medium"
+  },
+  {
+   "style": "Bold",
+   "wght": 700,
+   "orion": {
+    "xh": 529.2,
+    "stemUC": 152.8,
+    "stemLC": 238.8,
+    "O_w": 725.6,
+    "adv_n": 594.6,
+    "avg_lc_adv": 541.4
+   },
+   "gotham": {
+    "xh": 536.0,
+    "stemUC": 154.0,
+    "stemLC": 152.0,
+    "O_w": 744.0,
+    "adv_n": 623.0,
+    "avg_lc_adv": 579.1
+   },
+   "gotham_style": "Bold"
+  },
+  {
+   "style": "Black",
+   "wght": 900,
+   "orion": {
+    "xh": 534.0,
+    "stemUC": 196.0,
+    "stemLC": 278.0,
+    "O_w": 748.0,
+    "adv_n": 605.0,
+    "avg_lc_adv": 554.7
+   },
+   "gotham": {
+    "xh": 541.0,
+    "stemUC": 194.0,
+    "stemLC": 189.0,
+    "O_w": 754.0,
+    "adv_n": 634.0,
+    "avg_lc_adv": 585.8
+   },
+   "gotham_style": "Black"
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hookabovecomb" format="2">
+  <unicode hex="0309"/>
+  <anchor x="0" y="534" name="_top"/>
+  <anchor x="0" y="680" name="top"/>
+  <outline>
+    <contour>
+      <point x="-37" y="658"/>
+      <point x="-12" y="646"/>
+      <point x="0" y="646" type="curve"/>
+      <point x="20" y="646"/>
+      <point x="33" y="645"/>
+      <point x="33" y="645" type="curve"/>
+      <point x="33" y="636"/>
+      <point x="24" y="629"/>
+      <point x="11" y="629" type="curve"/>
+      <point x="11" y="580" type="line"/>
+      <point x="60" y="580"/>
+      <point x="92" y="606"/>
+      <point x="92" y="645" type="curve"/>
+      <point x="92" y="681"/>
+      <point x="55" y="705"/>
+      <point x="0" y="705" type="curve"/>
+      <point x="-53" y="705"/>
+      <point x="-88" y="681"/>
+      <point x="-88" y="646" type="curve"/>
+      <point x="-37" y="646" type="line"/>
+    </contour>
+  </outline>
+</glyph>

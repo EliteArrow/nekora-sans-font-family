@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="two.tf" format="2">
+  <advance width="721"/>
+  <anchor x="361" y="0" name="bottom"/>
+  <anchor x="558" y="0" name="ogonek"/>
+  <anchor x="361" y="742" name="top"/>
+  <outline>
+    <component base="two" xOffset="12"/>
+  </outline>
+</glyph>

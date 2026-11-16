@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seven.dnom" format="2">
+  <advance width="359"/>
+  <anchor x="181" y="0" name="bottom"/>
+  <anchor x="245" y="0" name="ogonek"/>
+  <anchor x="181" y="540" name="top"/>
+  <outline>
+    <contour>
+      <point x="203" y="333" type="line"/>
+      <point x="84" y="0" type="line"/>
+      <point x="192" y="0" type="line"/>
+      <point x="344" y="420" type="line"/>
+      <point x="18" y="420" type="line"/>
+      <point x="18" y="333" type="line"/>
+    </contour>
+  </outline>
+</glyph>

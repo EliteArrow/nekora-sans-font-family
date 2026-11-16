@@ -1,0 +1,7 @@
+*.ttf binary
+*.otf binary
+*.woff2 binary
+*.png binary
+*.glif linguist-generated
+sources/masters/** linguist-generated
+qa/fontbakery/** linguist-generated

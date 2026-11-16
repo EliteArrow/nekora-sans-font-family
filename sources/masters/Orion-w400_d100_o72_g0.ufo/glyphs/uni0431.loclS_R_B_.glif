@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0431.loclSRB" format="2">
+  <advance width="576"/>
+  <anchor x="288" y="0" name="bottom"/>
+  <anchor x="499" y="0" name="ogonek"/>
+  <anchor x="288" y="742" name="top"/>
+  <outline>
+    <contour>
+      <point x="543" y="384"/>
+      <point x="435" y="489"/>
+      <point x="288" y="489" type="curve"/>
+      <point x="141" y="489"/>
+      <point x="33" y="384"/>
+      <point x="33" y="240" type="curve"/>
+      <point x="33" y="95"/>
+      <point x="141" y="-10"/>
+      <point x="288" y="-10" type="curve"/>
+      <point x="435" y="-10"/>
+      <point x="543" y="95"/>
+      <point x="543" y="240" type="curve"/>
+    </contour>
+    <contour>
+      <point x="460" y="135"/>
+      <point x="393" y="59"/>
+      <point x="288" y="59" type="curve"/>
+      <point x="183" y="59"/>
+      <point x="116" y="135"/>
+      <point x="116" y="240" type="curve"/>
+      <point x="116" y="344"/>
+      <point x="183" y="421"/>
+      <point x="288" y="421" type="curve"/>
+      <point x="393" y="421"/>
+      <point x="460" y="344"/>
+      <point x="460" y="240" type="curve"/>
+    </contour>
+    <contour>
+      <point x="116" y="406"/>
+      <point x="165" y="531"/>
+      <point x="261" y="611" type="curve"/>
+      <point x="272" y="621"/>
+      <point x="347" y="642"/>
+      <point x="500" y="680" type="curve"/>
+      <point x="484" y="742" type="line"/>
+      <point x="304" y="697"/>
+      <point x="219" y="674"/>
+      <point x="213" y="669" type="curve"/>
+      <point x="94" y="568"/>
+      <point x="33" y="424"/>
+      <point x="33" y="240" type="curve"/>
+      <point x="116" y="240" type="line"/>
+    </contour>
+  </outline>
+</glyph>

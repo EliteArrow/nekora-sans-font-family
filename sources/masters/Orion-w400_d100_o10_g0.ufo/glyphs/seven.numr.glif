@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seven.numr" format="2">
+  <advance width="340"/>
+  <anchor x="173" y="280" name="bottom"/>
+  <anchor x="268" y="280" name="ogonek"/>
+  <anchor x="173" y="810" name="top"/>
+  <outline>
+    <component base="seven.dnom" yOffset="280"/>
+  </outline>
+</glyph>

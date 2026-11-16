@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eight.numr" format="2">
+  <advance width="363"/>
+  <anchor x="182" y="280" name="bottom"/>
+  <anchor x="306" y="280" name="ogonek"/>
+  <anchor x="182" y="806" name="top"/>
+  <outline>
+    <component base="eight.dnom" yOffset="280"/>
+  </outline>
+</glyph>

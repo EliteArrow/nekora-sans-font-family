@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="onequarter" format="2">
+  <advance width="714"/>
+  <unicode hex="00BC"/>
+  <anchor x="106" y="280" name="bottom"/>
+  <anchor x="149" y="280" name="ogonek"/>
+  <anchor x="106" y="790" name="top"/>
+  <outline>
+    <component base="one.numr"/>
+    <component base="fraction" xOffset="227"/>
+    <component base="four.dnom" xOffset="383"/>
+  </outline>
+</glyph>

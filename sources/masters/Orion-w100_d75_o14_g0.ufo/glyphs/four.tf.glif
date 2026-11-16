@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="four.tf" format="2">
+  <advance width="471"/>
+  <anchor x="233" y="0" name="bottom"/>
+  <anchor x="410" y="0" name="ogonek"/>
+  <anchor x="233" y="742" name="top"/>
+  <outline>
+    <component base="four" xOffset="6"/>
+  </outline>
+</glyph>

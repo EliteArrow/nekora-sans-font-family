@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni045B" format="2">
+  <advance width="482"/>
+  <unicode hex="045B"/>
+  <anchor x="215" y="0" name="bottom"/>
+  <anchor x="367" y="0" name="ogonek"/>
+  <anchor x="110" y="742" name="top"/>
+  <outline>
+    <component base="hbar"/>
+  </outline>
+</glyph>

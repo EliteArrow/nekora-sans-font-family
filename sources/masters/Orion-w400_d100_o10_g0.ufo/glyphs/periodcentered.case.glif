@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="periodcentered.case" format="2">
+  <advance width="270"/>
+  <anchor x="135" y="85" name="bottom"/>
+  <anchor x="153" y="85" name="ogonek"/>
+  <anchor x="135" y="615" name="top"/>
+  <outline>
+    <component base="periodcentered" yOffset="85"/>
+  </outline>
+</glyph>

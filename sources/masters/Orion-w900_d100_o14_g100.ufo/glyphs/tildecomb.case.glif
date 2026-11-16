@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tildecomb.case" format="2">
+  <anchor x="0" y="700" name="_top"/>
+  <anchor x="0" y="848" name="top"/>
+  <outline>
+    <contour>
+      <point x="-128" y="775"/>
+      <point x="-108" y="776"/>
+      <point x="-75" y="776" type="curve"/>
+      <point x="-59" y="776"/>
+      <point x="-43" y="771"/>
+      <point x="-25" y="761" type="curve"/>
+      <point x="6" y="743"/>
+      <point x="39" y="734"/>
+      <point x="75" y="734" type="curve"/>
+      <point x="127" y="734"/>
+      <point x="172" y="757"/>
+      <point x="196" y="795" type="curve"/>
+      <point x="130" y="837" type="line"/>
+      <point x="128" y="834"/>
+      <point x="108" y="832"/>
+      <point x="75" y="832" type="curve"/>
+      <point x="59" y="832"/>
+      <point x="43" y="837"/>
+      <point x="25" y="848" type="curve"/>
+      <point x="-6" y="865"/>
+      <point x="-39" y="874"/>
+      <point x="-75" y="874" type="curve"/>
+      <point x="-127" y="874"/>
+      <point x="-172" y="852"/>
+      <point x="-196" y="813" type="curve"/>
+      <point x="-130" y="772" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="upsilon" format="2">
+  <advance width="564"/>
+  <unicode hex="03C5"/>
+  <anchor x="282" y="0" name="bottom"/>
+  <anchor x="451" y="0" name="ogonek"/>
+  <anchor x="282" y="522" name="top"/>
+  <outline>
+    <contour>
+      <point x="70" y="205" type="line"/>
+      <point x="70" y="77"/>
+      <point x="156" y="-11"/>
+      <point x="282" y="-11" type="curve"/>
+      <point x="408" y="-11"/>
+      <point x="494" y="77"/>
+      <point x="494" y="205" type="curve"/>
+      <point x="494" y="522" type="line"/>
+      <point x="417" y="522" type="line"/>
+      <point x="417" y="205" type="line"/>
+      <point x="417" y="116"/>
+      <point x="367" y="56"/>
+      <point x="282" y="56" type="curve"/>
+      <point x="196" y="56"/>
+      <point x="146" y="116"/>
+      <point x="146" y="205" type="curve"/>
+      <point x="146" y="522" type="line"/>
+      <point x="70" y="522" type="line"/>
+    </contour>
+  </outline>
+</glyph>

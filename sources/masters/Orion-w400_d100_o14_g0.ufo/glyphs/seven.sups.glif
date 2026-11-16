@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seven.sups" format="2">
+  <advance width="327"/>
+  <unicode hex="2077"/>
+  <anchor x="166" y="392" name="bottom"/>
+  <anchor x="260" y="392" name="ogonek"/>
+  <anchor x="166" y="914" name="top"/>
+  <outline>
+    <component base="seven.dnom" yOffset="392"/>
+  </outline>
+</glyph>

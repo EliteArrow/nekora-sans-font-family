@@ -1,0 +1,856 @@
+{
+ "suite": "accessibility",
+ "summary": {
+  "PASS": 45,
+  "WARN": 7
+ },
+ "results": [
+  {
+   "check": "confusable I|l distinct at 20/20 (score >= 0.10)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "confusable I|l still distinct under 20/40 blur (score >= 0.05)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "confusable I|1 distinct at 20/20 (score >= 0.10)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "confusable I|1 still distinct under 20/40 blur (score >= 0.05)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "confusable l|1 distinct at 20/20 (score >= 0.10)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "confusable l|1 still distinct under 20/40 blur (score >= 0.05)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "confusable O|0 distinct at 20/20 (score >= 0.10)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "confusable O|0 still distinct under 20/40 blur (score >= 0.05)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "confusable S|5 distinct at 20/20 (score >= 0.10)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "confusable S|5 still distinct under 20/40 blur (score >= 0.05)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "confusable B|8 distinct at 20/20 (score >= 0.10)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "confusable B|8 still distinct under 20/40 blur (score >= 0.05)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "confusable 6|9 distinct at 20/20 (score >= 0.10)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "confusable 6|9 still distinct under 20/40 blur (score >= 0.05)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "confusable rn|m distinct at 20/20 (score >= 0.10)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "confusable rn|m still distinct under 20/40 blur (score >= 0.05)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "confusable c|e distinct at 20/20 (score >= 0.10)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "confusable c|e still distinct under 20/40 blur (score >= 0.05)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "confusable separation vs reference median (20/40 blur): Orion >= median on 8 of 9 pairs",
+   "status": "PASS",
+   "detail": {
+    "I|l": {
+     "orion": 0.148,
+     "reference_median": 0.083
+    },
+    "I|1": {
+     "orion": 0.189,
+     "reference_median": 0.122
+    },
+    "l|1": {
+     "orion": 0.167,
+     "reference_median": 0.114
+    },
+    "O|0": {
+     "orion": 0.384,
+     "reference_median": 0.209
+    },
+    "S|5": {
+     "orion": 0.112,
+     "reference_median": 0.075
+    },
+    "B|8": {
+     "orion": 0.091,
+     "reference_median": 0.078
+    },
+    "6|9": {
+     "orion": 0.227,
+     "reference_median": 0.166
+    },
+    "rn|m": {
+     "orion": 0.05,
+     "reference_median": 0.098
+    },
+    "c|e": {
+     "orion": 0.149,
+     "reference_median": 0.113
+    }
+   }
+  },
+  {
+   "check": "TV preset displayXL: x-height >= 10 arcmin over typical viewing geometry (min 31.8)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "TV preset displayL: x-height >= 10 arcmin over typical viewing geometry (min 23.8)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "TV preset headlineL: x-height >= 10 arcmin over typical viewing geometry (min 18.5)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "TV preset headlineM: x-height >= 10 arcmin over typical viewing geometry (min 14.6)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "TV preset titleL: x-height >= 10 arcmin over typical viewing geometry (min 11.9)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "TV preset titleM: x-height >= 10 arcmin over typical viewing geometry (min 10.6)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "TV preset bodyL: x-height >= 10 arcmin over typical viewing geometry (min 9.9)",
+   "status": "WARN",
+   "detail": 9.9
+  },
+  {
+   "check": "TV preset bodyM: x-height >= 10 arcmin over typical viewing geometry (min 9.3)",
+   "status": "WARN",
+   "detail": 9.3
+  },
+  {
+   "check": "TV preset labelL: x-height >= 10 arcmin over typical viewing geometry (min 9.9)",
+   "status": "WARN",
+   "detail": 9.9
+  },
+  {
+   "check": "TV preset labelM: x-height >= 10 arcmin over typical viewing geometry (min 9.3)",
+   "status": "WARN",
+   "detail": 9.3
+  },
+  {
+   "check": "TV preset caption: x-height >= 9 arcmin over typical viewing geometry (min 7.9)",
+   "status": "WARN",
+   "detail": 7.9
+  },
+  {
+   "check": "TV preset metadata: x-height >= 9 arcmin over typical viewing geometry (min 7.9)",
+   "status": "WARN",
+   "detail": 7.9
+  },
+  {
+   "check": "TV preset numeric: x-height >= 10 arcmin over typical viewing geometry (min 9.3)",
+   "status": "WARN",
+   "detail": 9.3
+  },
+  {
+   "check": "TV preset subtitle: x-height >= 10 arcmin over typical viewing geometry (min 15.2)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "contrast dark primary text #F2F2F2 on #0B0D12 = 17.36:1 (needs 4.5:1)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "contrast dark secondary text #B3B8C2 on #0B0D12 = 9.77:1 (needs 4.5:1)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "contrast dark tertiary / metadata #8E95A3 on #0B0D12 = 6.46:1 (needs 4.5:1)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "contrast dark text on surface #F2F2F2 on #161A22 = 15.57:1 (needs 4.5:1)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "contrast dark metadata on surface #8E95A3 on #161A22 = 5.79:1 (needs 4.5:1)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "contrast focused item (inverted) #0B0D12 on #F2F2F2 = 17.36:1 (needs 4.5:1)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "contrast accent button label #FFFFFF on #C8102E = 5.88:1 (needs 4.5:1)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "contrast focus ring (non-text) #4DA3FF on #0B0D12 = 7.40:1 (needs 3.0:1)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "contrast light primary text #14161A on #FFFFFF = 18.11:1 (needs 4.5:1)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "contrast light secondary text #4A4F5A on #FFFFFF = 8.21:1 (needs 4.5:1)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "contrast light tertiary / metadata #636A76 on #FFFFFF = 5.45:1 (needs 4.5:1)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "contrast light metadata on surface #636A76 on #F3F4F6 = 4.95:1 (needs 4.5:1)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "contrast light accent label #FFFFFF on #B00E28 = 7.14:1 (needs 4.5:1)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "contrast light focus ring (non-text) #0A5FD1 on #FFFFFF = 5.88:1 (needs 3.0:1)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "contrast subtitle on scrim #FFFFFF on #1A1A1A = 17.40:1 (needs 7.0:1)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "contrast large hero title on 55% scrim (worst case mid-grey) #FFFFFF on #737373 = 4.74:1 (needs 3.0:1)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "all presets keep line-height >= 1.08 em (ink never collides between lines)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "WCAG 1.4.12: tallest ink (1.160 em) fits a 1.5 em line box",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "WCAG 1.4.12: no liga / dlig / rlig features, so letter- and word-spacing overrides cannot change glyph forms",
+   "status": "PASS",
+   "detail": ""
+  }
+ ],
+ "orion": {
+  "I|l": {
+   "20/20": 0.132,
+   "20/40": 0.148,
+   "20/80": 0.135
+  },
+  "I|1": {
+   "20/20": 0.133,
+   "20/40": 0.189,
+   "20/80": 0.138
+  },
+  "l|1": {
+   "20/20": 0.206,
+   "20/40": 0.167,
+   "20/80": 0.184
+  },
+  "O|0": {
+   "20/20": 0.451,
+   "20/40": 0.384,
+   "20/80": 0.281
+  },
+  "S|5": {
+   "20/20": 0.218,
+   "20/40": 0.112,
+   "20/80": 0.068
+  },
+  "B|8": {
+   "20/20": 0.149,
+   "20/40": 0.091,
+   "20/80": 0.053
+  },
+  "6|9": {
+   "20/20": 0.324,
+   "20/40": 0.227,
+   "20/80": 0.099
+  },
+  "rn|m": {
+   "20/20": 0.106,
+   "20/40": 0.05,
+   "20/80": 0.042
+  },
+  "c|e": {
+   "20/20": 0.175,
+   "20/40": 0.149,
+   "20/80": 0.104
+  },
+  "Z|2": {
+   "20/20": 0.222,
+   "20/40": 0.152,
+   "20/80": 0.086
+  },
+  "G|6": {
+   "20/20": 0.392,
+   "20/40": 0.28,
+   "20/80": 0.179
+  },
+  "cl|d": {
+   "20/20": 0.33,
+   "20/40": 0.234,
+   "20/80": 0.194
+  },
+  "vv|w": {
+   "20/20": 0.419,
+   "20/40": 0.341,
+   "20/80": 0.186
+  },
+  "i|j": {
+   "20/20": 0.174,
+   "20/40": 0.16,
+   "20/80": 0.169
+  },
+  "a|o": {
+   "20/20": 0.295,
+   "20/40": 0.224,
+   "20/80": 0.153
+  },
+  "h|b": {
+   "20/20": 0.162,
+   "20/40": 0.091,
+   "20/80": 0.059
+  },
+  "3|8": {
+   "20/20": 0.2,
+   "20/40": 0.178,
+   "20/80": 0.109
+  },
+  "D|O": {
+   "20/20": 0.234,
+   "20/40": 0.158,
+   "20/80": 0.101
+  }
+ },
+ "references": {
+  "Inter (Regular)": {
+   "I|l": {
+    "20/20": 0.039,
+    "20/40": 0.096,
+    "20/80": 0.004
+   },
+   "I|1": {
+    "20/20": 0.154,
+    "20/40": 0.138,
+    "20/80": 0.158
+   },
+   "l|1": {
+    "20/20": 0.177,
+    "20/40": 0.11,
+    "20/80": 0.15
+   },
+   "O|0": {
+    "20/20": 0.323,
+    "20/40": 0.203,
+    "20/80": 0.156
+   },
+   "S|5": {
+    "20/20": 0.203,
+    "20/40": 0.097,
+    "20/80": 0.059
+   },
+   "B|8": {
+    "20/20": 0.138,
+    "20/40": 0.078,
+    "20/80": 0.035
+   },
+   "6|9": {
+    "20/20": 0.23,
+    "20/40": 0.133,
+    "20/80": 0.038
+   },
+   "rn|m": {
+    "20/20": 0.291,
+    "20/40": 0.125,
+    "20/80": 0.098
+   },
+   "c|e": {
+    "20/20": 0.144,
+    "20/40": 0.123,
+    "20/80": 0.06
+   },
+   "Z|2": {
+    "20/20": 0.199,
+    "20/40": 0.118,
+    "20/80": 0.06
+   },
+   "G|6": {
+    "20/20": 0.301,
+    "20/40": 0.185,
+    "20/80": 0.135
+   },
+   "cl|d": {
+    "20/20": 0.39,
+    "20/40": 0.286,
+    "20/80": 0.161
+   },
+   "vv|w": {
+    "20/20": 0.458,
+    "20/40": 0.338,
+    "20/80": 0.181
+   },
+   "i|j": {
+    "20/20": 0.137,
+    "20/40": 0.133,
+    "20/80": 0.169
+   },
+   "a|o": {
+    "20/20": 0.199,
+    "20/40": 0.157,
+    "20/80": 0.115
+   },
+   "h|b": {
+    "20/20": 0.137,
+    "20/40": 0.082,
+    "20/80": 0.06
+   },
+   "3|8": {
+    "20/20": 0.097,
+    "20/40": 0.084,
+    "20/80": 0.057
+   },
+   "D|O": {
+    "20/20": 0.16,
+    "20/40": 0.122,
+    "20/80": 0.119
+   }
+  },
+  "Roboto Flex (Regular)": {
+   "I|l": {
+    "20/20": 0.052,
+    "20/40": 0.096,
+    "20/80": 0.125
+   },
+   "I|1": {
+    "20/20": 0.131,
+    "20/40": 0.131,
+    "20/80": 0.157
+   },
+   "l|1": {
+    "20/20": 0.211,
+    "20/40": 0.122,
+    "20/80": 0.103
+   },
+   "O|0": {
+    "20/20": 0.313,
+    "20/40": 0.22,
+    "20/80": 0.188
+   },
+   "S|5": {
+    "20/20": 0.195,
+    "20/40": 0.084,
+    "20/80": 0.036
+   },
+   "B|8": {
+    "20/20": 0.16,
+    "20/40": 0.078,
+    "20/80": 0.024
+   },
+   "6|9": {
+    "20/20": 0.414,
+    "20/40": 0.284,
+    "20/80": 0.131
+   },
+   "rn|m": {
+    "20/20": 0.099,
+    "20/40": 0.039,
+    "20/80": 0.009
+   },
+   "c|e": {
+    "20/20": 0.134,
+    "20/40": 0.099,
+    "20/80": 0.034
+   },
+   "Z|2": {
+    "20/20": 0.202,
+    "20/40": 0.105,
+    "20/80": 0.057
+   },
+   "G|6": {
+    "20/20": 0.347,
+    "20/40": 0.246,
+    "20/80": 0.161
+   },
+   "cl|d": {
+    "20/20": 0.403,
+    "20/40": 0.339,
+    "20/80": 0.241
+   },
+   "vv|w": {
+    "20/20": 0.453,
+    "20/40": 0.248,
+    "20/80": 0.095
+   },
+   "i|j": {
+    "20/20": 0.168,
+    "20/40": 0.159,
+    "20/80": 0.182
+   },
+   "a|o": {
+    "20/20": 0.219,
+    "20/40": 0.148,
+    "20/80": 0.083
+   },
+   "h|b": {
+    "20/20": 0.104,
+    "20/40": 0.082,
+    "20/80": 0.062
+   },
+   "3|8": {
+    "20/20": 0.105,
+    "20/40": 0.083,
+    "20/80": 0.067
+   },
+   "D|O": {
+    "20/20": 0.182,
+    "20/40": 0.149,
+    "20/80": 0.141
+   }
+  },
+  "Gotham Book": {
+   "I|l": {
+    "20/20": 0.083,
+    "20/40": 0.036,
+    "20/80": 0.004
+   },
+   "I|1": {
+    "20/20": 0.118,
+    "20/40": 0.097,
+    "20/80": 0.154
+   },
+   "l|1": {
+    "20/20": 0.082,
+    "20/40": 0.105,
+    "20/80": 0.155
+   },
+   "O|0": {
+    "20/20": 0.319,
+    "20/40": 0.18,
+    "20/80": 0.139
+   },
+   "S|5": {
+    "20/20": 0.148,
+    "20/40": 0.047,
+    "20/80": 0.008
+   },
+   "B|8": {
+    "20/20": 0.215,
+    "20/40": 0.103,
+    "20/80": 0.056
+   },
+   "6|9": {
+    "20/20": 0.329,
+    "20/40": 0.191,
+    "20/80": 0.092
+   },
+   "rn|m": {
+    "20/20": 0.173,
+    "20/40": 0.116,
+    "20/80": 0.064
+   },
+   "c|e": {
+    "20/20": 0.162,
+    "20/40": 0.126,
+    "20/80": 0.068
+   },
+   "Z|2": {
+    "20/20": 0.253,
+    "20/40": 0.137,
+    "20/80": 0.078
+   },
+   "G|6": {
+    "20/20": 0.337,
+    "20/40": 0.236,
+    "20/80": 0.178
+   },
+   "cl|d": {
+    "20/20": 0.397,
+    "20/40": 0.282,
+    "20/80": 0.188
+   },
+   "vv|w": {
+    "20/20": 0.483,
+    "20/40": 0.363,
+    "20/80": 0.221
+   },
+   "i|j": {
+    "20/20": 0.14,
+    "20/40": 0.158,
+    "20/80": 0.201
+   },
+   "a|o": {
+    "20/20": 0.284,
+    "20/40": 0.179,
+    "20/80": 0.113
+   },
+   "h|b": {
+    "20/20": 0.216,
+    "20/40": 0.137,
+    "20/80": 0.093
+   },
+   "3|8": {
+    "20/20": 0.314,
+    "20/40": 0.211,
+    "20/80": 0.085
+   },
+   "D|O": {
+    "20/20": 0.235,
+    "20/40": 0.133,
+    "20/80": 0.109
+   }
+  },
+  "Netflix Sans Regular": {
+   "I|l": {
+    "20/20": 0.074,
+    "20/40": 0.07,
+    "20/80": 0.005
+   },
+   "I|1": {
+    "20/20": 0.103,
+    "20/40": 0.113,
+    "20/80": 0.156
+   },
+   "l|1": {
+    "20/20": 0.191,
+    "20/40": 0.117,
+    "20/80": 0.148
+   },
+   "O|0": {
+    "20/20": 0.341,
+    "20/40": 0.214,
+    "20/80": 0.162
+   },
+   "S|5": {
+    "20/20": 0.155,
+    "20/40": 0.065,
+    "20/80": 0.044
+   },
+   "B|8": {
+    "20/20": 0.125,
+    "20/40": 0.061,
+    "20/80": 0.038
+   },
+   "6|9": {
+    "20/20": 0.26,
+    "20/40": 0.14,
+    "20/80": 0.037
+   },
+   "rn|m": {
+    "20/20": 0.142,
+    "20/40": 0.079,
+    "20/80": 0.084
+   },
+   "c|e": {
+    "20/20": 0.137,
+    "20/40": 0.104,
+    "20/80": 0.051
+   },
+   "Z|2": {
+    "20/20": 0.211,
+    "20/40": 0.118,
+    "20/80": 0.038
+   },
+   "G|6": {
+    "20/20": 0.283,
+    "20/40": 0.197,
+    "20/80": 0.139
+   },
+   "cl|d": {
+    "20/20": 0.386,
+    "20/40": 0.249,
+    "20/80": 0.134
+   },
+   "vv|w": {
+    "20/20": 0.45,
+    "20/40": 0.328,
+    "20/80": 0.155
+   },
+   "i|j": {
+    "20/20": 0.155,
+    "20/40": 0.155,
+    "20/80": 0.191
+   },
+   "a|o": {
+    "20/20": 0.204,
+    "20/40": 0.137,
+    "20/80": 0.048
+   },
+   "h|b": {
+    "20/20": 0.166,
+    "20/40": 0.087,
+    "20/80": 0.054
+   },
+   "3|8": {
+    "20/20": 0.113,
+    "20/40": 0.09,
+    "20/80": 0.059
+   },
+   "D|O": {
+    "20/20": 0.179,
+    "20/40": 0.138,
+    "20/80": 0.127
+   }
+  }
+ },
+ "viewing_geometry_worst": {
+  "displayXL": [
+   15.9,
+   32,
+   4
+  ],
+  "displayL": [
+   11.9,
+   32,
+   4
+  ],
+  "headlineL": [
+   9.3,
+   32,
+   4
+  ],
+  "headlineM": [
+   7.3,
+   32,
+   4
+  ],
+  "titleL": [
+   6.0,
+   32,
+   4
+  ],
+  "titleM": [
+   5.3,
+   32,
+   4
+  ],
+  "bodyL": [
+   5.0,
+   32,
+   4
+  ],
+  "bodyM": [
+   4.6,
+   32,
+   4
+  ],
+  "labelL": [
+   5.0,
+   32,
+   4
+  ],
+  "labelM": [
+   4.6,
+   32,
+   4
+  ],
+  "caption": [
+   4.0,
+   32,
+   4
+  ],
+  "metadata": [
+   4.0,
+   32,
+   4
+  ],
+  "numeric": [
+   4.6,
+   32,
+   4
+  ],
+  "subtitle": [
+   7.6,
+   32,
+   4
+  ]
+ },
+ "typical_viewing_min_arcmin": {
+  "displayXL": 31.8,
+  "displayL": 23.8,
+  "headlineL": 18.5,
+  "headlineM": 14.6,
+  "titleL": 11.9,
+  "titleM": 10.6,
+  "bodyL": 9.9,
+  "bodyM": 9.3,
+  "labelL": 9.9,
+  "labelM": 9.3,
+  "caption": 7.9,
+  "metadata": 7.9,
+  "numeric": 9.3,
+  "subtitle": 15.2
+ }
+}

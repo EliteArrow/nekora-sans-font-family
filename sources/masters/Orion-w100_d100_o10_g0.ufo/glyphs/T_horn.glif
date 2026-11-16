@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Thorn" format="2">
+  <advance width="637"/>
+  <unicode hex="00DE"/>
+  <anchor x="342" y="0" name="bottom"/>
+  <anchor x="562" y="0" name="ogonek"/>
+  <anchor x="342" y="700" name="top"/>
+  <outline>
+    <contour>
+      <point x="138" y="0" type="line"/>
+      <point x="138" y="700" type="line"/>
+      <point x="102" y="700" type="line"/>
+      <point x="102" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="260" y="536" type="line"/>
+      <point x="431" y="536"/>
+      <point x="545" y="464"/>
+      <point x="545" y="350" type="curve"/>
+      <point x="545" y="236"/>
+      <point x="431" y="164"/>
+      <point x="260" y="164" type="curve"/>
+      <point x="120" y="164" type="line"/>
+      <point x="120" y="130" type="line"/>
+      <point x="260" y="130" type="line"/>
+      <point x="453" y="129"/>
+      <point x="582" y="218"/>
+      <point x="582" y="350" type="curve"/>
+      <point x="582" y="482"/>
+      <point x="453" y="570"/>
+      <point x="260" y="570" type="curve"/>
+      <point x="120" y="570" type="line"/>
+      <point x="120" y="536" type="line"/>
+    </contour>
+  </outline>
+</glyph>

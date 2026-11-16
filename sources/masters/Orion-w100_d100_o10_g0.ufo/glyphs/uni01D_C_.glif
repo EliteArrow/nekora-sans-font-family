@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni01DC" format="2">
+  <advance width="602"/>
+  <unicode hex="01DC"/>
+  <anchor x="298" y="0" name="bottom"/>
+  <anchor x="499" y="518" name="horn"/>
+  <anchor x="495" y="0" name="ogonek"/>
+  <anchor x="298" y="783" name="top"/>
+  <outline>
+    <component base="u"/>
+    <component base="dieresiscomb" xOffset="298"/>
+    <component base="gravecomb" xOffset="298" yOffset="112"/>
+  </outline>
+</glyph>

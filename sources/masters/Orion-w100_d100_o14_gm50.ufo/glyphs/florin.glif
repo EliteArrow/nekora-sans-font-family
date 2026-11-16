@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="florin" format="2">
+  <advance width="541"/>
+  <unicode hex="0192"/>
+  <anchor x="274" y="0" name="bottom"/>
+  <anchor x="521" y="0" name="ogonek"/>
+  <anchor x="274" y="742" name="top"/>
+  <outline>
+    <contour>
+      <point x="332" y="574" type="line"/>
+      <point x="346" y="664"/>
+      <point x="428" y="727"/>
+      <point x="532" y="727" type="curve"/>
+      <point x="535" y="746" type="line"/>
+      <point x="419" y="746"/>
+      <point x="328" y="676"/>
+      <point x="311" y="574" type="curve"/>
+      <point x="245" y="155" type="line"/>
+      <point x="266" y="155" type="line"/>
+    </contour>
+    <contour>
+      <point x="215" y="-36" type="line"/>
+      <point x="201" y="-124"/>
+      <point x="119" y="-184"/>
+      <point x="15" y="-184" type="curve"/>
+      <point x="12" y="-204" type="line"/>
+      <point x="128" y="-204"/>
+      <point x="220" y="-135"/>
+      <point x="236" y="-36" type="curve"/>
+      <point x="274" y="207" type="line"/>
+      <point x="253" y="207" type="line"/>
+    </contour>
+    <contour>
+      <point x="472" y="498" type="line"/>
+      <point x="475" y="518" type="line"/>
+      <point x="182" y="518" type="line"/>
+      <point x="179" y="498" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seveneighths" format="2">
+  <advance width="857"/>
+  <unicode hex="215E"/>
+  <anchor x="173" y="280" name="bottom"/>
+  <anchor x="268" y="280" name="ogonek"/>
+  <anchor x="173" y="810" name="top"/>
+  <outline>
+    <component base="seven.numr"/>
+    <component base="fraction" xOffset="340"/>
+    <component base="eight.dnom" xOffset="492"/>
+  </outline>
+</glyph>

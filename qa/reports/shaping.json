@@ -1,0 +1,425 @@
+{
+ "suite": "shaping",
+ "summary": {
+  "PASS": 74,
+  "SKIP": 1
+ },
+ "results": [
+  {
+   "check": "kern: all 17 reference pairs are kerned negatively",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "kern: magnitudes within -20..-130",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "kern: straight / round control pairs untouched",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "kern: r+n opened to keep rn distinct from m",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "kern: variable kerning at {'wght': 100}",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "kern: variable kerning at {'wght': 900}",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "kern: variable kerning at {'wght': 900, 'wdth': 75}",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "kern: variable kerning at {'wght': 700, 'opsz': 72}",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "kern: variable kerning at {'wght': 400, 'opsz': 10}",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "kern: Cyrillic ГД / Greek Τα",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "kern: Cyrillic УД / Greek Υο",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "kern: Cyrillic Та / Greek ΛΥ",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "mark: q + combining acute positions the mark (zero advance, offset)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "mark: a + combining acute resolves to the precomposed glyph",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "ccmp: capital takes the .case mark",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "ccmp: i + mark above uses dotless i",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "ccmp: j + mark above uses dotless j",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "ccmp: Vietnamese circumflex+acute becomes one stacked mark",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "ccmp: capital breve+hook stack in .case form",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "mkmk: second mark stacks above the first",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "mark: marks below and above attach independently",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "mark: dot below attaches under the base",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "precomposed Vietnamese maps directly",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "mark: combining marks clear the base outline (6 bases x 6 marks)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "locl ROM: s/t cedilla -> comma below",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "locl default keeps Turkish s-cedilla",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "locl CAT: punt volat between l l",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "locl SRB: Serbian be",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "Turkish dotted / dotless i are separate glyphs",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "tnum: all figures share one advance",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "pnum (default): proportional figures (1 is narrower)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "tnum then pnum round-trips",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "tnum: figures, period, comma and colon align to the figure grid",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "timer string keeps one width under tnum",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "zero: slashed zero",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "calt: colon between figures centres on figure height",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "frac: 1/2 -> numerator, fraction bar, denominator",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "frac: multi-digit 15/16",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "frac: dates and paths without digits on both sides are left alone",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "numr / dnom",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "sups / subs / sinf",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "ordn: 1a 2o",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "case: punctuation aligns to capitals",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "ss01: serifed I (incl. accented)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "ss02: plain l",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "ss03: single-storey a (incl. Vietnamese)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "feature list complete, no empty declarations",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "no feature without lookups / subtables",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "corpus: 51 strings / 3525 characters shape without .notdef",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "OTT string: Continue Watching",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "OTT string: Watch Now",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "OTT string: Play from Beginning",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "OTT string: Skip Intro",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "OTT string: Next Episode",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "OTT string: Season 01 — Episode 08",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "OTT string: New & Popular",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "OTT string: Top 10 in Your Country",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "OTT string: Recommended for You",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "OTT string: 4K UHD • HDR • Dolby Atmos",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "OTT string: 2h 35m remaining",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "OTT string: 00:59:48",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "OTT string: TV-MA",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "OTT string: SUBTITLES & AUDIO",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "OTT string: Search Movies, Shows & More",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "OTT string: ₹1,499",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "OTT string: €19.99",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "OTT string: R$ 39,90",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "OTT string: İstanbul",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "OTT string: Łódź",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "OTT string: Đặng",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "OTT string: Україна",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "OTT string: Ελληνικά",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "long mixed-language string (10644 chars) shapes",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "line length evolves smoothly along wght",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "bidirectional text",
+   "status": "SKIP",
+   "detail": "No right-to-left script is included; Arabic / Hebrew fall back to companion families (see UNICODE-COVERAGE.md)."
+  }
+ ],
+ "features": [
+  "calt",
+  "case",
+  "ccmp",
+  "dnom",
+  "frac",
+  "kern",
+  "locl",
+  "mark",
+  "mkmk",
+  "numr",
+  "ordn",
+  "pnum",
+  "sinf",
+  "ss01",
+  "ss02",
+  "ss03",
+  "subs",
+  "sups",
+  "tnum",
+  "zero"
+ ],
+ "kern_values": {
+  "AV": -72,
+  "AW": -65,
+  "AY": -81,
+  "AT": -81,
+  "Ta": -74,
+  "Te": -72,
+  "To": -72,
+  "Tr": -68,
+  "Ty": -79,
+  "Va": -61,
+  "Vo": -55,
+  "Wa": -54,
+  "Wo": -47,
+  "Yo": -70,
+  "LY": -100,
+  "PA": -71,
+  "LT": -100
+ }
+}

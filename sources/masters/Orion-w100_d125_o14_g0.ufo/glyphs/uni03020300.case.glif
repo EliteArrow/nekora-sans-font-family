@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni03020300.case" format="2">
+  <anchor x="0" y="700" name="_top"/>
+  <anchor x="0" y="843" name="top"/>
+  <outline>
+    <contour>
+      <point x="-81" y="740" type="line"/>
+      <point x="0" y="802" type="line"/>
+      <point x="81" y="740" type="line"/>
+      <point x="115" y="740" type="line"/>
+      <point x="0" y="824" type="line"/>
+      <point x="-115" y="740" type="line"/>
+    </contour>
+    <contour>
+      <point x="-85" y="786" type="line"/>
+      <point x="-164" y="865" type="line"/>
+      <point x="-202" y="865" type="line"/>
+      <point x="-104" y="786" type="line"/>
+    </contour>
+  </outline>
+</glyph>

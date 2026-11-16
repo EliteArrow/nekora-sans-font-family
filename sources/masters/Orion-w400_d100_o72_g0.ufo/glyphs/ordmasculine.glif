@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ordmasculine" format="2">
+  <advance width="353"/>
+  <unicode hex="00BA"/>
+  <anchor x="177" y="0" name="bottom"/>
+  <anchor x="290" y="0" name="ogonek"/>
+  <anchor x="177" y="742" name="top"/>
+  <outline>
+    <contour>
+      <point x="335" y="637"/>
+      <point x="268" y="706"/>
+      <point x="177" y="706" type="curve"/>
+      <point x="85" y="706"/>
+      <point x="18" y="637"/>
+      <point x="18" y="542" type="curve"/>
+      <point x="18" y="447"/>
+      <point x="85" y="378"/>
+      <point x="177" y="378" type="curve"/>
+      <point x="268" y="378"/>
+      <point x="335" y="447"/>
+      <point x="335" y="542" type="curve"/>
+    </contour>
+    <contour>
+      <point x="272" y="477"/>
+      <point x="236" y="429"/>
+      <point x="177" y="429" type="curve"/>
+      <point x="117" y="429"/>
+      <point x="81" y="477"/>
+      <point x="81" y="542" type="curve"/>
+      <point x="81" y="607"/>
+      <point x="117" y="654"/>
+      <point x="177" y="654" type="curve"/>
+      <point x="236" y="654"/>
+      <point x="272" y="607"/>
+      <point x="272" y="542" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

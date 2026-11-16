@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kappa" format="2">
+  <advance width="423"/>
+  <unicode hex="03BA"/>
+  <anchor x="238" y="0" name="bottom"/>
+  <anchor x="400" y="0" name="ogonek"/>
+  <anchor x="238" y="518" name="top"/>
+  <outline>
+    <component base="kgreenlandic"/>
+  </outline>
+</glyph>

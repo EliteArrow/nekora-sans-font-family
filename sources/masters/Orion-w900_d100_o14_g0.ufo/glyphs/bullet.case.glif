@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bullet.case" format="2">
+  <advance width="355"/>
+  <anchor x="177" y="83" name="bottom"/>
+  <anchor x="213" y="83" name="ogonek"/>
+  <anchor x="177" y="617" name="top"/>
+  <outline>
+    <component base="bullet" yOffset="83"/>
+  </outline>
+</glyph>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iota" format="2">
+  <advance width="336"/>
+  <unicode hex="03B9"/>
+  <anchor x="162" y="0" name="bottom"/>
+  <anchor x="209" y="0" name="ogonek"/>
+  <anchor x="139" y="534" name="top"/>
+  <outline>
+    <contour>
+      <point x="49" y="238" type="line"/>
+      <point x="49" y="94"/>
+      <point x="153" y="0"/>
+      <point x="313" y="0" type="curve"/>
+      <point x="313" y="134" type="line"/>
+      <point x="262" y="134"/>
+      <point x="228" y="175"/>
+      <point x="228" y="238" type="curve"/>
+      <point x="228" y="534" type="line"/>
+      <point x="49" y="534" type="line"/>
+    </contour>
+  </outline>
+</glyph>

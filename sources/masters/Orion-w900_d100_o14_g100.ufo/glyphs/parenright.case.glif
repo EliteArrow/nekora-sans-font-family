@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="parenright.case" format="2">
+  <advance width="311"/>
+  <anchor x="148" y="0" name="bottom"/>
+  <anchor x="169" y="0" name="ogonek"/>
+  <anchor x="148" y="742" name="top"/>
+  <outline>
+    <contour>
+      <point x="24" y="710" type="line"/>
+      <point x="74" y="613"/>
+      <point x="94" y="510"/>
+      <point x="94" y="350" type="curve"/>
+      <point x="94" y="190"/>
+      <point x="74" y="87"/>
+      <point x="24" y="-10" type="curve"/>
+      <point x="148" y="-74" type="line"/>
+      <point x="243" y="114"/>
+      <point x="282" y="235"/>
+      <point x="282" y="350" type="curve"/>
+      <point x="282" y="465"/>
+      <point x="243" y="586"/>
+      <point x="148" y="774" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

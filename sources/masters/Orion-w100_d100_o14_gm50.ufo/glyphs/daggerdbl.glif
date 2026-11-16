@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="daggerdbl" format="2">
+  <advance width="522"/>
+  <unicode hex="2021"/>
+  <anchor x="261" y="0" name="bottom"/>
+  <anchor x="428" y="0" name="ogonek"/>
+  <anchor x="261" y="742" name="top"/>
+  <outline>
+    <contour>
+      <point x="271" y="-143" type="line"/>
+      <point x="271" y="742" type="line"/>
+      <point x="251" y="742" type="line"/>
+      <point x="251" y="-143" type="line"/>
+    </contour>
+    <contour>
+      <point x="443" y="477" type="line"/>
+      <point x="443" y="497" type="line"/>
+      <point x="80" y="497" type="line"/>
+      <point x="80" y="477" type="line"/>
+    </contour>
+    <contour>
+      <point x="443" y="103" type="line"/>
+      <point x="443" y="122" type="line"/>
+      <point x="80" y="122" type="line"/>
+      <point x="80" y="103" type="line"/>
+    </contour>
+  </outline>
+</glyph>

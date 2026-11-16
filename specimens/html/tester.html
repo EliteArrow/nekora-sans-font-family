@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Orion — axis tester</title>
+<style>
+@font-face { font-family: 'Orion'; src: url('../../fonts/variable/Orion-VF.woff2') format('woff2'); font-weight: 100 900; font-stretch: 75% 125%; }
+:root { --bg: #0B0D12; --panel: #161A22; --line: #262B36; --ink: #F2F2F2; --dim: #8E95A3; --accent: #4DA3FF; }
+body.light { --bg: #FFFFFF; --panel: #F3F4F6; --line: #D9DCE1; --ink: #14161A; --dim: #636A76; --accent: #0A5FD1; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: 'Orion', system-ui, sans-serif; font-variation-settings: 'wght' 400, 'wdth' 100, 'opsz' 14, 'GRAD' 0; }
+header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 12px 28px; padding: 22px 28px 14px; border-bottom: 1px solid var(--line); }
+header h1 { margin: 0; font-size: 26px; letter-spacing: 0.18em; font-variation-settings: 'wght' 800, 'wdth' 125, 'opsz' 28, 'GRAD' 0; }
+header span { color: var(--dim); font-size: 15px; }
+main { display: grid; grid-template-columns: 340px 1fr; min-height: calc(100vh - 70px); }
+@media (max-width: 820px) { main { grid-template-columns: 1fr; } }
+aside { background: var(--panel); padding: 20px 24px 28px; border-right: 1px solid var(--line); }
+.ax { margin-bottom: 16px; }
+.ax label { display: flex; justify-content: space-between; font-size: 14px; letter-spacing: 0.06em; color: var(--dim); font-variation-settings: 'wght' 600, 'wdth' 100, 'opsz' 14, 'GRAD' 0; }
+.ax label b { color: var(--ink); font-weight: normal; font-feature-settings: 'tnum' 1; }
+input[type=range] { width: 100%; accent-color: var(--accent); margin: 8px 0 0; }
+.row { display: flex; flex-wrap: wrap; gap: 8px; margin: 6px 0 16px; }
+button, .chip { font: inherit; font-size: 14px; color: var(--ink); background: transparent; border: 1px solid var(--line); border-radius: 8px; padding: 7px 11px; cursor: pointer; font-variation-settings: 'wght' 500, 'wdth' 100, 'opsz' 14, 'GRAD' 0; }
+button:hover, .chip:hover { border-color: var(--accent); }
+button:focus-visible, .chip:focus-within { outline: 3px solid var(--accent); outline-offset: 2px; }
+.chip input { margin-right: 6px; accent-color: var(--accent); }
+h2 { font-size: 13px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--dim); margin: 18px 0 6px; font-weight: normal; font-variation-settings: 'wght' 600, 'wdth' 100, 'opsz' 13, 'GRAD' 0; }
+section { padding: 26px 34px 40px; overflow: hidden; }
+#stage { outline: none; line-height: 1.16; word-break: break-word; min-height: 220px; }
+#css { margin-top: 26px; padding: 14px 16px; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; font-size: 14px; color: var(--dim); font-feature-settings: 'tnum' 1, 'zero' 1; white-space: pre-wrap; }
+.note { color: var(--dim); font-size: 14px; line-height: 21px; margin-top: 14px; }
+</style></head>
+<body>
+<header><h1>ORION</h1><span>Variable axis tester · type in the preview · everything is rendered from fonts/variable/Orion-VF.woff2</span></header>
+<main>
+<aside>
+  <div class="ax"><label for="wght">Weight <b id="v-wght">400</b></label><input id="wght" type="range" min="100" max="900" step="1" value="400"></div>
+  <div class="ax"><label for="wdth">Width <b id="v-wdth">100</b></label><input id="wdth" type="range" min="75" max="125" step="0.5" value="100"></div>
+  <div class="ax"><label for="opsz">Optical size <b id="v-opsz">72</b></label><input id="opsz" type="range" min="10" max="72" step="1" value="72"></div>
+  <div class="ax"><label for="GRAD">Grade <b id="v-GRAD">0</b></label><input id="GRAD" type="range" min="-50" max="100" step="1" value="0"></div>
+  <div class="ax"><label for="size">Size (px) <b id="v-size">88</b></label><input id="size" type="range" min="10" max="220" step="1" value="88"></div>
+  <label class="chip" style="display:inline-block"><input id="auto" type="checkbox" checked>Optical size follows size</label>
+  <h2>Presets</h2>
+  <div class="row" id="presets"></div>
+  <h2>Features</h2>
+  <div class="row" id="feats"></div>
+  <h2>Sample</h2>
+  <div class="row" id="samples"></div>
+  <div class="row"><button id="theme">Light / dark</button></div>
+  <p class="note">Grade changes stroke weight without changing width: move it and watch the line breaks stay put.</p>
+</aside>
+<section>
+  <div id="stage" contenteditable="true" spellcheck="false">Continue Watching</div>
+  <div id="css"></div>
+</section>
+</main>
+<script>
+(function () {
+  var ax = ['wght', 'wdth', 'opsz', 'GRAD'], el = {}, stage = document.getElementById('stage'), out = document.getElementById('css');
+  ax.concat(['size']).forEach(function (k) { el[k] = document.getElementById(k); });
+  var auto = document.getElementById('auto');
+  var FEATS = [['tnum', 'Tabular figures'], ['zero', 'Slashed zero'], ['case', 'Capital forms'], ['frac', 'Fractions'], ['ss01', 'Serifed I'], ['ss02', 'Plain l'], ['ss03', 'Single-storey a']];
+  var PRESETS = [['Display XL', 700, 100, 96, 0], ['Headline M', 600, 100, 44, 0], ['Title L', 500, 100, 36, 0], ['Body M', 400, 100, 28, 0], ['Metadata', 500, 100, 24, 0], ['Subtitle', 500, 100, 46, 40],
+                 ['Black Condensed', 900, 75, 132, 0], ['Thin Extended', 100, 125, 120, 0]];
+  var SAMPLES = [['Titles', 'Continue Watching'], ['Metadata', '2024 • 2h 35m • TV-MA • 4K UHD • HDR • Dolby Atmos — 00:59:48 — ₹1,499 €19.99'], ['Confusables', 'Il1| O0o S5 B8 69 rn m cl d'],
+                 ['Tiếng Việt', 'Tiếp tục xem · Đặng Hữu Phước · Ẩ Ỗ Ữ ợ'], ['Ελληνικά', 'Συνέχεια παρακολούθησης'], ['Кириллица', 'Продовжити перегляд · Україна · Съешь же ещё'],
+                 ['Alphabet', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789 1/2 3/4'], ['Symbols', '← ↑ → ↓ ↩ ↪ ⌫ ▶ ◀ ★ ☆ ✓ ✕ © ® ™ $ £ ¥ € ₹ ₽ ₩ ₺ ₫']];
+  var on = {};
+  function draw() {
+    if (auto.checked) { el.opsz.value = Math.max(10, Math.min(72, el.size.value)); }
+    ax.concat(['size']).forEach(function (k) { document.getElementById('v-' + k).textContent = el[k].value; });
+    var fvs = ax.map(function (k) { return "'" + k + "' " + el[k].value; }).join(', ');
+    var ff = Object.keys(on).filter(function (k) { return on[k]; }).map(function (k) { return "'" + k + "' 1"; }).join(', ') || 'normal';
+    stage.style.fontSize = el.size.value + 'px'; stage.style.fontVariationSettings = fvs; stage.style.fontFeatureSettings = ff;
+    out.textContent = "font-family: 'Orion';\nfont-size: " + el.size.value + "px;\nfont-variation-settings: " + fvs + ";\nfont-feature-settings: " + ff + ";";
+  }
+  function btn(parent, label, fn) { var b = document.createElement('button'); b.type = 'button'; b.textContent = label; b.addEventListener('click', fn); document.getElementById(parent).appendChild(b); }
+  PRESETS.forEach(function (p) { btn('presets', p[0], function () { el.wght.value = p[1]; el.wdth.value = p[2]; el.size.value = p[3]; el.GRAD.value = p[4]; auto.checked = true; draw(); }); });
+  SAMPLES.forEach(function (s) { btn('samples', s[0], function () { stage.textContent = s[1]; }); });
+  FEATS.forEach(function (f) {
+    var l = document.createElement('label'); l.className = 'chip'; var c = document.createElement('input'); c.type = 'checkbox';
+    c.addEventListener('change', function () { on[f[0]] = c.checked; draw(); }); l.appendChild(c); l.appendChild(document.createTextNode(f[1])); document.getElementById('feats').appendChild(l);
+  });
+  ax.concat(['size']).forEach(function (k) { el[k].addEventListener('input', function () { if (k === 'opsz') { auto.checked = false; } draw(); }); });
+  auto.addEventListener('change', draw);
+  document.getElementById('theme').addEventListener('click', function () { document.body.classList.toggle('light'); });
+  draw();
+})();
+</script>
+</body></html>

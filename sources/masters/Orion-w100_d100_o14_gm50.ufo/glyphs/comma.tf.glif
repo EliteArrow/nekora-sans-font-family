@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="comma.tf" format="2">
+  <advance width="297"/>
+  <anchor x="149" y="0" name="bottom"/>
+  <anchor x="161" y="0" name="ogonek"/>
+  <anchor x="149" y="518" name="top"/>
+  <outline>
+    <component base="comma" xOffset="53"/>
+  </outline>
+</glyph>

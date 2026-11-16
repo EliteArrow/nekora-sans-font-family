@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dagger" format="2">
+  <advance width="508"/>
+  <unicode hex="2020"/>
+  <anchor x="254" y="0" name="bottom"/>
+  <anchor x="365" y="0" name="ogonek"/>
+  <anchor x="254" y="742" name="top"/>
+  <outline>
+    <contour>
+      <point x="342" y="-143" type="line"/>
+      <point x="342" y="742" type="line"/>
+      <point x="166" y="742" type="line"/>
+      <point x="166" y="-143" type="line"/>
+    </contour>
+    <contour>
+      <point x="469" y="432" type="line"/>
+      <point x="469" y="572" type="line"/>
+      <point x="39" y="572" type="line"/>
+      <point x="39" y="432" type="line"/>
+    </contour>
+  </outline>
+</glyph>

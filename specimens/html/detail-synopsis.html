@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang='en'><head><meta charset='utf-8'><title>Orion — Detail page and synopsis</title>
+<style>
+@font-face { font-family: 'Orion'; src: url('../../fonts/variable/Orion-VF.woff2') format('woff2'); font-weight: 100 900; font-stretch: 75% 125%; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { background: #0B0D12; }
+body { font-family: 'Orion', sans-serif; font-optical-sizing: none; font-kerning: normal; -webkit-font-smoothing: antialiased;
+       color: #F2F2F2; background: #0B0D12; font-variation-settings: 'wght' 400, 'wdth' 100, 'opsz' 14, 'GRAD' 0; }
+body.light { color: #14161A; background: #FFFFFF; }
+.tag { font-variation-settings: 'wght' 600, 'wdth' 100, 'opsz' 14, 'GRAD' 0; font-size: 15px; letter-spacing: 0.14em; text-transform: uppercase; color: #8E95A3; }
+.light .tag { color: #636A76; }
+.note { font-size: 16px; line-height: 24px; color: #8E95A3; font-variation-settings: 'wght' 400, 'wdth' 100, 'opsz' 14, 'GRAD' 0; }
+.light .note { color: #636A76; }
+.foot { position: absolute; left: 96px; right: 96px; bottom: 40px; display: flex; justify-content: space-between; font-size: 15px; color: #6B7280;
+        font-variation-settings: 'wght' 500, 'wdth' 100, 'opsz' 12, 'GRAD' 0; letter-spacing: 0.04em; }
+
+body { width: 1920px; height: 1080px; position: relative; overflow: hidden; }
+
+.nav { position: absolute; top: 44px; left: 96px; right: 96px; display: flex; align-items: center; gap: 52px; z-index: 5; }
+.logo { font-size: 38px; line-height: 48px; letter-spacing: 0.2em; margin-right: 28px; font-variation-settings:'wght' 800,'wdth' 125,'opsz' 38,'GRAD' 0 }
+.nav .i { font-size:30px;line-height:36px;letter-spacing:0.005em;font-variation-settings:'wght' 500,'wdth' 100,'opsz' 28,'GRAD' 0; color: #B3B8C2; }
+.nav .i.on { color: #F2F2F2; border-bottom: 4px solid #C8102E; padding-bottom: 6px; }
+.light .nav .i { color: #4A4F5A; } .light .nav .i.on { color: #14161A; border-color: #B00E28; }
+.nav .sp { flex: 1; }
+.btn { display: inline-flex; align-items: center; gap: 14px; height: 72px; padding: 0 36px; border-radius: 10px; background: rgba(255,255,255,0.14); font-size:28px;line-height:32px;letter-spacing:0.01em;font-variation-settings:'wght' 600,'wdth' 100,'opsz' 26,'GRAD' 0; }
+.btn.f { background: #F2F2F2; color: #0B0D12; box-shadow: 0 0 0 4px #0B0D12, 0 0 0 8px #4DA3FF; }
+.card { position: relative; border-radius: 10px; overflow: hidden; }
+.card .ti { position: absolute; left: 22px; right: 16px; bottom: 16px; color: #fff; text-shadow: 0 2px 14px rgba(0,0,0,0.55); }
+
+    .bg { position: absolute; inset: 0; background: radial-gradient(900px 700px at 86% 18%, #5EC8D8 0%, #1E6F8C 30%, #0F2B46 56%, transparent 80%), #0B0D12; }
+    .sc { position: absolute; inset: 0; background: linear-gradient(90deg, #0B0D12 0%, rgba(11,13,18,0.92) 34%, rgba(11,13,18,0.55) 70%, rgba(11,13,18,0.35) 100%); }
+    .L { position: absolute; left: 96px; top: 150px; width: 900px; }
+    .meta { color: #B3B8C2; margin: 12px 0 20px; display: flex; gap: 16px; align-items: center; font-size:24px;line-height:32px;letter-spacing:0.01em;font-variation-settings:'wght' 500,'wdth' 100,'opsz' 20,'GRAD' 0;font-feature-settings:'tnum' 1; }
+    .pill { border: 2px solid #8E95A3; border-radius: 6px; padding: 0 10px; line-height: 28px; }
+    .syn { color: #E4E6EA; font-size:30px;line-height:42px;letter-spacing:0em;font-variation-settings:'wght' 400,'wdth' 100,'opsz' 28,'GRAD' 0; }
+    .cr { margin-top: 20px; color: #8E95A3; font-size:24px;line-height:32px;letter-spacing:0.01em;font-variation-settings:'wght' 400,'wdth' 100,'opsz' 20,'GRAD' 0; } .cr b { color: #D5D8DE; font-weight: normal; }
+    .btns { display: flex; gap: 22px; margin-top: 30px; }
+    .R { position: absolute; left: 1080px; top: 150px; right: 96px; }
+    .ep { display: grid; grid-template-columns: 56px 1fr auto; column-gap: 20px; align-items: baseline; padding: 15px 22px; border-radius: 10px; }
+    .ep.f { background: #F2F2F2; color: #0B0D12; }
+    .ep .n { color: #8E95A3; font-size:28px;line-height:32px;letter-spacing:0em;font-variation-settings:'wght' 500,'wdth' 100,'opsz' 24,'GRAD' 0;font-feature-settings:'tnum' 1; } .ep.f .n, .ep.f .d { color: #0B0D12; }
+    .ep .t { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:30px;line-height:36px;letter-spacing:0.005em;font-variation-settings:'wght' 500,'wdth' 100,'opsz' 28,'GRAD' 0; }
+    .ep .d { color: #8E95A3; font-size:28px;line-height:32px;letter-spacing:0em;font-variation-settings:'wght' 500,'wdth' 100,'opsz' 24,'GRAD' 0;font-feature-settings:'tnum' 1; }
+    </style></head>
+<body class=''>
+<div class='bg'></div><div class='sc'></div><div class='nav'><div class='logo'>ORION</div><div class='i'>Home</div><div class='i on'>Series</div><div class='i'>Movies</div><div class='i'>Live</div><div class='i'>My List</div><div class='sp'></div><div class='i'>Search</div><div class='i' style="font-feature-settings:'tnum' 1">21:47</div></div><div class='L'><div style="font-size:72px;line-height:80px;letter-spacing:-0.0075em;font-variation-settings:'wght' 700,'wdth' 100,'opsz' 72,'GRAD' 0;">Quiet Orbit</div><div class='meta'><span>2023</span><span>•</span><span>8 Episodes</span><span>•</span><span class='pill'>TV-14</span><span class='pill'>4K UHD</span><span class='pill'>HDR</span><span class='pill'>5.1</span><span>★ 8.7/10</span></div><div class='syn'>Six months into a routine survey, the crew of the Halden lose contact with home and begin receiving their own transmissions — dated eleven years from now. What starts as a fault report becomes a question none of them trained for: if the future has already answered, who is still asking?</div><div class='cr'>Starring <b>Imani Okafor, Tomasz Żuławski, Linh Đặng, Søren Åkesson</b><br>Genres <b>Science fiction · Drama · Mystery</b><br>Audio <b>English, Español, Français, Deutsch, Tiếng Việt, Русский</b></div><div class='btns'><div class='btn f'>▶ Resume S1:E8</div><div class='btn'>Play from Beginning</div><div class='btn'>Trailer</div></div></div><div class='R'><div style="font-size:44px;line-height:52px;letter-spacing:-0.0025em;font-variation-settings:'wght' 600,'wdth' 100,'opsz' 44,'GRAD' 0;;margin:0 0 14px 22px">Season 01 — Episode 08</div><div class='ep'><div class='n'>01</div><div class='t'>Low Water</div><div class='d'>52m</div></div><div class='ep'><div class='n'>02</div><div class='t'>The Survey</div><div class='d'>48m</div></div><div class='ep'><div class='n'>03</div><div class='t'>Paper Coast</div><div class='d'>55m</div></div><div class='ep'><div class='n'>04</div><div class='t'>Soundings</div><div class='d'>47m</div></div><div class='ep'><div class='n'>05</div><div class='t'>A Line in Salt</div><div class='d'>51m</div></div><div class='ep'><div class='n'>06</div><div class='t'>North by Memory</div><div class='d'>58m</div></div><div class='ep'><div class='n'>07</div><div class='t'>Dead Reckoning</div><div class='d'>49m</div></div><div class='ep f'><div class='n'>08</div><div class='t' style="font-variation-settings:'wght' 500,'wdth' 100,'opsz' 28,'GRAD' 80">Signal Fire</div><div class='d'>1h 02m</div></div></div>
+</body></html>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="three.dnom" format="2">
+  <advance width="354"/>
+  <anchor x="177" y="0" name="bottom"/>
+  <anchor x="273" y="0" name="ogonek"/>
+  <anchor x="177" y="522" name="top"/>
+  <outline>
+    <contour>
+      <point x="95" y="356"/>
+      <point x="122" y="366"/>
+      <point x="155" y="366" type="curve"/>
+      <point x="202" y="366"/>
+      <point x="236" y="344"/>
+      <point x="236" y="308" type="curve"/>
+      <point x="236" y="273"/>
+      <point x="205" y="251"/>
+      <point x="161" y="251" type="curve"/>
+      <point x="123" y="251" type="line"/>
+      <point x="123" y="199" type="line"/>
+      <point x="161" y="199" type="line"/>
+      <point x="245" y="199"/>
+      <point x="305" y="244"/>
+      <point x="305" y="308" type="curve"/>
+      <point x="305" y="377"/>
+      <point x="242" y="427"/>
+      <point x="155" y="427" type="curve"/>
+      <point x="113" y="427"/>
+      <point x="78" y="416"/>
+      <point x="51" y="397" type="curve"/>
+      <point x="81" y="339" type="line"/>
+    </contour>
+    <contour>
+      <point x="161" y="199" type="line"/>
+      <point x="213" y="199"/>
+      <point x="250" y="170"/>
+      <point x="250" y="126" type="curve"/>
+      <point x="250" y="83"/>
+      <point x="210" y="54"/>
+      <point x="155" y="54" type="curve"/>
+      <point x="114" y="54"/>
+      <point x="81" y="68"/>
+      <point x="64" y="91" type="curve"/>
+      <point x="33" y="32" type="line"/>
+      <point x="62" y="8"/>
+      <point x="105" y="-7"/>
+      <point x="155" y="-7" type="curve"/>
+      <point x="252" y="-7"/>
+      <point x="322" y="49"/>
+      <point x="322" y="126" type="curve"/>
+      <point x="322" y="199"/>
+      <point x="255" y="251"/>
+      <point x="161" y="251" type="curve"/>
+      <point x="123" y="251" type="line"/>
+      <point x="123" y="199" type="line"/>
+    </contour>
+  </outline>
+</glyph>

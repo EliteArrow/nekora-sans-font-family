@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni012A" format="2">
+  <advance width="241"/>
+  <unicode hex="012A"/>
+  <anchor x="121" y="0" name="bottom"/>
+  <anchor x="120" y="0" name="ogonek"/>
+  <anchor x="121" y="759" name="top"/>
+  <outline>
+    <component base="I" xOffset="37"/>
+    <component base="macroncomb.case" xOffset="121"/>
+  </outline>
+</glyph>

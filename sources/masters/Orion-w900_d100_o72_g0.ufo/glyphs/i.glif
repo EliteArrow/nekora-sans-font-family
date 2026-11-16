@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="i" format="2">
+  <advance width="266"/>
+  <unicode hex="0069"/>
+  <anchor x="133" y="0" name="bottom"/>
+  <anchor x="123" y="0" name="ogonek"/>
+  <anchor x="133" y="742" name="top"/>
+  <outline>
+    <contour>
+      <point x="232" y="0" type="line"/>
+      <point x="232" y="524" type="line"/>
+      <point x="34" y="524" type="line"/>
+      <point x="34" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="232" y="738"/>
+      <point x="206" y="764"/>
+      <point x="133" y="764" type="curve"/>
+      <point x="60" y="764"/>
+      <point x="34" y="738"/>
+      <point x="34" y="665" type="curve"/>
+      <point x="34" y="592"/>
+      <point x="60" y="566"/>
+      <point x="133" y="566" type="curve"/>
+      <point x="206" y="566"/>
+      <point x="232" y="592"/>
+      <point x="232" y="665" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

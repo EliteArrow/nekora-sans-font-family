@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni00CF.ss01" format="2">
+  <advance width="555"/>
+  <anchor x="278" y="0" name="bottom"/>
+  <anchor x="394" y="0" name="ogonek"/>
+  <anchor x="278" y="848" name="top"/>
+  <outline>
+    <component base="I.ss01"/>
+    <component base="dieresiscomb.case" xOffset="278"/>
+  </outline>
+</glyph>

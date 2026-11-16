@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ldot" format="2">
+  <advance width="427"/>
+  <unicode hex="013F"/>
+  <anchor x="237" y="0" name="bottom"/>
+  <anchor x="385" y="0" name="ogonek"/>
+  <anchor x="87" y="700" name="top"/>
+  <outline>
+    <contour>
+      <point x="100" y="0" type="line"/>
+      <point x="100" y="700" type="line"/>
+      <point x="74" y="700" type="line"/>
+      <point x="74" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="400" y="0" type="line"/>
+      <point x="400" y="25" type="line"/>
+      <point x="87" y="25" type="line"/>
+      <point x="87" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="314" y="411"/>
+      <point x="307" y="418"/>
+      <point x="288" y="418" type="curve"/>
+      <point x="269" y="418"/>
+      <point x="262" y="411"/>
+      <point x="262" y="392" type="curve"/>
+      <point x="262" y="373"/>
+      <point x="269" y="366"/>
+      <point x="288" y="366" type="curve"/>
+      <point x="307" y="366"/>
+      <point x="314" y="373"/>
+      <point x="314" y="392" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

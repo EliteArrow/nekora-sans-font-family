@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="oneeighth" format="2">
+  <advance width="691"/>
+  <unicode hex="215B"/>
+  <anchor x="110" y="280" name="bottom"/>
+  <anchor x="170" y="280" name="ogonek"/>
+  <anchor x="110" y="806" name="top"/>
+  <outline>
+    <component base="one.numr"/>
+    <component base="fraction" xOffset="245"/>
+    <component base="eight.dnom" xOffset="328"/>
+  </outline>
+</glyph>

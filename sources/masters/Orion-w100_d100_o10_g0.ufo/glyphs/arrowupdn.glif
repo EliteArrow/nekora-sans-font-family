@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="arrowupdn" format="2">
+  <advance width="604"/>
+  <unicode hex="2195"/>
+  <anchor x="302" y="0" name="bottom"/>
+  <anchor x="517" y="0" name="ogonek"/>
+  <anchor x="302" y="742" name="top"/>
+  <outline>
+    <contour>
+      <point x="319" y="748" type="line"/>
+      <point x="286" y="748" type="line"/>
+      <point x="286" y="-48" type="line"/>
+      <point x="319" y="-48" type="line"/>
+    </contour>
+    <contour>
+      <point x="302" y="719" type="line"/>
+      <point x="486" y="556" type="line"/>
+      <point x="536" y="556" type="line"/>
+      <point x="302" y="764" type="line"/>
+      <point x="68" y="556" type="line"/>
+      <point x="118" y="556" type="line"/>
+    </contour>
+    <contour>
+      <point x="302" y="-64" type="line"/>
+      <point x="536" y="144" type="line"/>
+      <point x="486" y="144" type="line"/>
+      <point x="302" y="-19" type="line"/>
+      <point x="118" y="144" type="line"/>
+      <point x="68" y="144" type="line"/>
+    </contour>
+  </outline>
+</glyph>

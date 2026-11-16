@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dotaccentcomb" format="2">
+  <unicode hex="0307"/>
+  <anchor x="0" y="510" name="_top"/>
+  <anchor x="0" y="646" name="top"/>
+  <outline>
+    <contour>
+      <point x="48" y="665"/>
+      <point x="36" y="677"/>
+      <point x="0" y="677" type="curve"/>
+      <point x="-36" y="677"/>
+      <point x="-48" y="665"/>
+      <point x="-48" y="629" type="curve"/>
+      <point x="-48" y="594"/>
+      <point x="-36" y="581"/>
+      <point x="0" y="581" type="curve"/>
+      <point x="36" y="581"/>
+      <point x="48" y="594"/>
+      <point x="48" y="629" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

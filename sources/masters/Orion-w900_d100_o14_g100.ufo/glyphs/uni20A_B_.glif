@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni20AB" format="2">
+  <advance width="626"/>
+  <unicode hex="20AB"/>
+  <anchor x="313" y="0" name="bottom"/>
+  <anchor x="435" y="0" name="ogonek"/>
+  <anchor x="313" y="534" name="top"/>
+  <outline>
+    <contour>
+      <point x="539" y="-267" type="line"/>
+      <point x="539" y="-140" type="line"/>
+      <point x="88" y="-140" type="line"/>
+      <point x="88" y="-267" type="line"/>
+    </contour>
+    <component base="dcroat" yOffset="-42"/>
+  </outline>
+</glyph>

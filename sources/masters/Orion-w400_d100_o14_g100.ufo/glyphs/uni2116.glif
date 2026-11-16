@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2116" format="2">
+  <advance width="1083"/>
+  <unicode hex="2116"/>
+  <anchor x="566" y="0" name="bottom"/>
+  <anchor x="1000" y="0" name="ogonek"/>
+  <anchor x="566" y="742" name="top"/>
+  <outline>
+    <contour>
+      <point x="182" y="0" type="line"/>
+      <point x="182" y="700" type="line"/>
+      <point x="78" y="700" type="line"/>
+      <point x="78" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="673" y="0" type="line"/>
+      <point x="673" y="700" type="line"/>
+      <point x="570" y="700" type="line"/>
+      <point x="570" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="674" y="0" type="line"/>
+      <point x="188" y="700" type="line"/>
+      <point x="78" y="700" type="line"/>
+      <point x="563" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1052" y="634"/>
+      <point x="987" y="700"/>
+      <point x="891" y="700" type="curve"/>
+      <point x="796" y="700"/>
+      <point x="731" y="634"/>
+      <point x="731" y="537" type="curve"/>
+      <point x="731" y="440"/>
+      <point x="796" y="374"/>
+      <point x="891" y="374" type="curve"/>
+      <point x="987" y="374"/>
+      <point x="1052" y="440"/>
+      <point x="1052" y="537" type="curve"/>
+    </contour>
+    <contour>
+      <point x="976" y="478"/>
+      <point x="945" y="439"/>
+      <point x="891" y="439" type="curve"/>
+      <point x="838" y="439"/>
+      <point x="807" y="478"/>
+      <point x="807" y="537" type="curve"/>
+      <point x="807" y="595"/>
+      <point x="838" y="635"/>
+      <point x="891" y="635" type="curve"/>
+      <point x="945" y="635"/>
+      <point x="976" y="595"/>
+      <point x="976" y="537" type="curve"/>
+    </contour>
+    <contour>
+      <point x="1046" y="145" type="line"/>
+      <point x="1046" y="219" type="line"/>
+      <point x="737" y="219" type="line"/>
+      <point x="737" y="145" type="line"/>
+    </contour>
+  </outline>
+</glyph>

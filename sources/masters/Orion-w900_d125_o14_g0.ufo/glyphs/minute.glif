@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="minute" format="2">
+  <advance width="415"/>
+  <unicode hex="2032"/>
+  <anchor x="207" y="0" name="bottom"/>
+  <anchor x="268" y="0" name="ogonek"/>
+  <anchor x="207" y="742" name="top"/>
+  <outline>
+    <contour>
+      <point x="165" y="448" type="line"/>
+      <point x="382" y="742" type="line"/>
+      <point x="189" y="742" type="line"/>
+      <point x="33" y="448" type="line"/>
+    </contour>
+  </outline>
+</glyph>

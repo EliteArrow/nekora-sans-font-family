@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sterling" format="2">
+  <advance width="620"/>
+  <unicode hex="00A3"/>
+  <anchor x="310" y="0" name="bottom"/>
+  <anchor x="482" y="0" name="ogonek"/>
+  <anchor x="310" y="742" name="top"/>
+  <outline>
+    <contour>
+      <point x="309" y="421" type="line"/>
+      <point x="309" y="499"/>
+      <point x="412" y="550"/>
+      <point x="569" y="550" type="curve"/>
+      <point x="569" y="713" type="line"/>
+      <point x="286" y="713"/>
+      <point x="100" y="598"/>
+      <point x="100" y="421" type="curve"/>
+      <point x="100" y="82" type="line"/>
+      <point x="309" y="82" type="line"/>
+    </contour>
+    <contour>
+      <point x="586" y="0" type="line"/>
+      <point x="586" y="163" type="line"/>
+      <point x="34" y="163" type="line"/>
+      <point x="34" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="442" y="205" type="line"/>
+      <point x="442" y="355" type="line"/>
+      <point x="45" y="355" type="line"/>
+      <point x="45" y="205" type="line"/>
+    </contour>
+  </outline>
+</glyph>

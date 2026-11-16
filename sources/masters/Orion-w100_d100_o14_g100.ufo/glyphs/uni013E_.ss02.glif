@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni013E.ss02" format="2">
+  <advance width="182"/>
+  <anchor x="91" y="0" name="bottom"/>
+  <anchor x="90" y="0" name="ogonek"/>
+  <anchor x="91" y="742" name="top"/>
+  <outline>
+    <component base="l.ss02"/>
+    <component base="caroncomb.alt" xOffset="124"/>
+  </outline>
+</glyph>

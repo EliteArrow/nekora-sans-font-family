@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zero.dnom" format="2">
+  <advance width="331"/>
+  <anchor x="166" y="0" name="bottom"/>
+  <anchor x="264" y="0" name="ogonek"/>
+  <anchor x="166" y="510" name="top"/>
+  <outline>
+    <contour>
+      <point x="308" y="335"/>
+      <point x="248" y="426"/>
+      <point x="166" y="426" type="curve"/>
+      <point x="83" y="426"/>
+      <point x="23" y="335"/>
+      <point x="23" y="210" type="curve"/>
+      <point x="23" y="85"/>
+      <point x="83" y="-6"/>
+      <point x="166" y="-6" type="curve"/>
+      <point x="248" y="-6"/>
+      <point x="308" y="85"/>
+      <point x="308" y="210" type="curve"/>
+    </contour>
+    <contour>
+      <point x="241" y="117"/>
+      <point x="215" y="50"/>
+      <point x="166" y="50" type="curve"/>
+      <point x="116" y="50"/>
+      <point x="90" y="117"/>
+      <point x="90" y="210" type="curve"/>
+      <point x="90" y="303"/>
+      <point x="116" y="370"/>
+      <point x="166" y="370" type="curve"/>
+      <point x="215" y="370"/>
+      <point x="241" y="303"/>
+      <point x="241" y="210" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

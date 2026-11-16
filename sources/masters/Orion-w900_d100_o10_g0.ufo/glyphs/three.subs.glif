@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="three.subs" format="2">
+  <advance width="333"/>
+  <unicode hex="2083"/>
+  <anchor x="167" y="-140" name="bottom"/>
+  <anchor x="213" y="-140" name="ogonek"/>
+  <anchor x="167" y="400" name="top"/>
+  <outline>
+    <component base="three.dnom" yOffset="-140"/>
+  </outline>
+</glyph>

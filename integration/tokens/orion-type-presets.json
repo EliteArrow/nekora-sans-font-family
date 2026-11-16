@@ -1,0 +1,797 @@
+{
+  "meta": {
+    "family": "Orion",
+    "version": "1.000",
+    "canvas": {
+      "tv": "1920 x 1080 px (scale by 2 for 4K, by 0.667 for 720p)",
+      "desktop": "CSS px",
+      "tablet": "pt / dp",
+      "mobile": "pt / sp"
+    },
+    "notes": "letterSpacing in em. opsz equals the rendered size in px/pt on the reference canvas, capped to 10-72. GRAD +40 on subtitles compensates for video bleed; on OLED dark UI consider GRAD -20 for body text. Display tracking is light (-0.01 em at most) because the opsz 72 master is already spaced for display."
+  },
+  "tv": {
+    "displayXL": {
+      "fontSize": 96,
+      "lineHeight": 104,
+      "letterSpacing": -0.01,
+      "wght": 700,
+      "wdth": 100,
+      "opsz": 72,
+      "GRAD": 0,
+      "features": "",
+      "usage": "Hero promotional titles",
+      "minSize": 72
+    },
+    "displayL": {
+      "fontSize": 72,
+      "lineHeight": 80,
+      "letterSpacing": -0.0075,
+      "wght": 700,
+      "wdth": 100,
+      "opsz": 72,
+      "GRAD": 0,
+      "features": "",
+      "usage": "Featured movie and series titles",
+      "minSize": 56
+    },
+    "headlineL": {
+      "fontSize": 56,
+      "lineHeight": 64,
+      "letterSpacing": -0.005,
+      "wght": 600,
+      "wdth": 100,
+      "opsz": 56,
+      "GRAD": 0,
+      "features": "",
+      "usage": "Page headings",
+      "minSize": 44
+    },
+    "headlineM": {
+      "fontSize": 44,
+      "lineHeight": 52,
+      "letterSpacing": -0.0025,
+      "wght": 600,
+      "wdth": 100,
+      "opsz": 44,
+      "GRAD": 0,
+      "features": "",
+      "usage": "Content section and row headings",
+      "minSize": 36
+    },
+    "titleL": {
+      "fontSize": 36,
+      "lineHeight": 44,
+      "letterSpacing": 0,
+      "wght": 500,
+      "wdth": 100,
+      "opsz": 36,
+      "GRAD": 0,
+      "features": "",
+      "usage": "Movie and series cards, detail-page title rows",
+      "minSize": 30
+    },
+    "titleM": {
+      "fontSize": 32,
+      "lineHeight": 40,
+      "letterSpacing": 0,
+      "wght": 600,
+      "wdth": 100,
+      "opsz": 32,
+      "GRAD": 0,
+      "features": "",
+      "usage": "Dialog and panel headings",
+      "minSize": 28
+    },
+    "bodyL": {
+      "fontSize": 30,
+      "lineHeight": 42,
+      "letterSpacing": 0,
+      "wght": 400,
+      "wdth": 100,
+      "opsz": 28,
+      "GRAD": 0,
+      "features": "",
+      "usage": "Synopsis and long descriptions",
+      "minSize": 28
+    },
+    "bodyM": {
+      "fontSize": 28,
+      "lineHeight": 40,
+      "letterSpacing": 0.005,
+      "wght": 400,
+      "wdth": 100,
+      "opsz": 26,
+      "GRAD": 0,
+      "features": "",
+      "usage": "Standard descriptions",
+      "minSize": 26
+    },
+    "labelL": {
+      "fontSize": 30,
+      "lineHeight": 36,
+      "letterSpacing": 0.005,
+      "wght": 500,
+      "wdth": 100,
+      "opsz": 28,
+      "GRAD": 0,
+      "features": "",
+      "usage": "Navigation items, tabs",
+      "minSize": 26
+    },
+    "labelM": {
+      "fontSize": 28,
+      "lineHeight": 32,
+      "letterSpacing": 0.01,
+      "wght": 600,
+      "wdth": 100,
+      "opsz": 26,
+      "GRAD": 0,
+      "features": "",
+      "usage": "Buttons and controls",
+      "minSize": 24
+    },
+    "caption": {
+      "fontSize": 24,
+      "lineHeight": 32,
+      "letterSpacing": 0.01,
+      "wght": 400,
+      "wdth": 100,
+      "opsz": 20,
+      "GRAD": 0,
+      "features": "",
+      "usage": "Supporting information",
+      "minSize": 24
+    },
+    "metadata": {
+      "fontSize": 24,
+      "lineHeight": 32,
+      "letterSpacing": 0.01,
+      "wght": 500,
+      "wdth": 100,
+      "opsz": 20,
+      "GRAD": 0,
+      "features": "tnum",
+      "usage": "Ratings, year, runtime, badges",
+      "minSize": 24
+    },
+    "numeric": {
+      "fontSize": 28,
+      "lineHeight": 32,
+      "letterSpacing": 0,
+      "wght": 500,
+      "wdth": 100,
+      "opsz": 24,
+      "GRAD": 0,
+      "features": "tnum",
+      "usage": "Timers, prices and values (tabular)",
+      "minSize": 24
+    },
+    "subtitle": {
+      "fontSize": 46,
+      "lineHeight": 58,
+      "letterSpacing": 0,
+      "wght": 500,
+      "wdth": 100,
+      "opsz": 40,
+      "GRAD": 40,
+      "features": "",
+      "usage": "Playback subtitles and captions",
+      "minSize": 40
+    }
+  },
+  "desktop": {
+    "displayXL": {
+      "fontSize": 72,
+      "lineHeight": 80,
+      "letterSpacing": -0.01,
+      "wght": 700,
+      "wdth": 100,
+      "opsz": 72,
+      "GRAD": 0,
+      "features": "",
+      "usage": "Hero promotional titles",
+      "minSize": 48
+    },
+    "displayL": {
+      "fontSize": 56,
+      "lineHeight": 62,
+      "letterSpacing": -0.0075,
+      "wght": 700,
+      "wdth": 100,
+      "opsz": 56,
+      "GRAD": 0,
+      "features": "",
+      "usage": "Featured movie and series titles",
+      "minSize": 40
+    },
+    "headlineL": {
+      "fontSize": 40,
+      "lineHeight": 48,
+      "letterSpacing": -0.005,
+      "wght": 600,
+      "wdth": 100,
+      "opsz": 40,
+      "GRAD": 0,
+      "features": "",
+      "usage": "Page headings",
+      "minSize": 32
+    },
+    "headlineM": {
+      "fontSize": 32,
+      "lineHeight": 40,
+      "letterSpacing": -0.0025,
+      "wght": 600,
+      "wdth": 100,
+      "opsz": 32,
+      "GRAD": 0,
+      "features": "",
+      "usage": "Content section and row headings",
+      "minSize": 24
+    },
+    "titleL": {
+      "fontSize": 24,
+      "lineHeight": 32,
+      "letterSpacing": 0,
+      "wght": 600,
+      "wdth": 100,
+      "opsz": 24,
+      "GRAD": 0,
+      "features": "",
+      "usage": "Movie and series cards, detail-page title rows",
+      "minSize": 20
+    },
+    "titleM": {
+      "fontSize": 20,
+      "lineHeight": 28,
+      "letterSpacing": 0,
+      "wght": 600,
+      "wdth": 100,
+      "opsz": 20,
+      "GRAD": 0,
+      "features": "",
+      "usage": "Dialog and panel headings",
+      "minSize": 18
+    },
+    "bodyL": {
+      "fontSize": 18,
+      "lineHeight": 28,
+      "letterSpacing": 0,
+      "wght": 400,
+      "wdth": 100,
+      "opsz": 18,
+      "GRAD": 0,
+      "features": "",
+      "usage": "Synopsis and long descriptions",
+      "minSize": 16
+    },
+    "bodyM": {
+      "fontSize": 16,
+      "lineHeight": 24,
+      "letterSpacing": 0,
+      "wght": 400,
+      "wdth": 100,
+      "opsz": 16,
+      "GRAD": 0,
+      "features": "",
+      "usage": "Standard descriptions",
+      "minSize": 14
+    },
+    "labelL": {
+      "fontSize": 16,
+      "lineHeight": 20,
+      "letterSpacing": 0,
+      "wght": 500,
+      "wdth": 100,
+      "opsz": 16,
+      "GRAD": 0,
+      "features": "",
+      "usage": "Navigation items, tabs",
+      "minSize": 14
+    },
+    "labelM": {
+      "fontSize": 14,
+      "lineHeight": 20,
+      "letterSpacing": 0.01,
+      "wght": 600,
+      "wdth": 100,
+      "opsz": 14,
+      "GRAD": 0,
+      "features": "",
+      "usage": "Buttons and controls",
+      "minSize": 13
+    },
+    "caption": {
+      "fontSize": 13,
+      "lineHeight": 18,
+      "letterSpacing": 0.01,
+      "wght": 400,
+      "wdth": 100,
+      "opsz": 13,
+      "GRAD": 0,
+      "features": "",
+      "usage": "Supporting information",
+      "minSize": 12
+    },
+    "metadata": {
+      "fontSize": 13,
+      "lineHeight": 18,
+      "letterSpacing": 0.01,
+      "wght": 500,
+      "wdth": 100,
+      "opsz": 13,
+      "GRAD": 0,
+      "features": "tnum",
+      "usage": "Ratings, year, runtime, badges",
+      "minSize": 12
+    },
+    "numeric": {
+      "fontSize": 14,
+      "lineHeight": 20,
+      "letterSpacing": 0,
+      "wght": 500,
+      "wdth": 100,
+      "opsz": 14,
+      "GRAD": 0,
+      "features": "tnum",
+      "usage": "Timers, prices and values (tabular)",
+      "minSize": 12
+    },
+    "subtitle": {
+      "fontSize": 32,
+      "lineHeight": 42,
+      "letterSpacing": 0,
+      "wght": 500,
+      "wdth": 100,
+      "opsz": 30,
+      "GRAD": 40,
+      "features": "",
+      "usage": "Playback subtitles and captions",
+      "minSize": 22
+    }
+  },
+  "tablet": {
+    "displayXL": {
+      "fontSize": 56,
+      "lineHeight": 62,
+      "letterSpacing": -0.01,
+      "wght": 700,
+      "wdth": 100,
+      "opsz": 56,
+      "GRAD": 0,
+      "features": "",
+      "usage": "Hero promotional titles",
+      "minSize": 40
+    },
+    "displayL": {
+      "fontSize": 44,
+      "lineHeight": 48,
+      "letterSpacing": -0.0075,
+      "wght": 700,
+      "wdth": 100,
+      "opsz": 44,
+      "GRAD": 0,
+      "features": "",
+      "usage": "Featured movie and series titles",
+      "minSize": 34
+    },
+    "headlineL": {
+      "fontSize": 34,
+      "lineHeight": 40,
+      "letterSpacing": -0.005,
+      "wght": 600,
+      "wdth": 100,
+      "opsz": 34,
+      "GRAD": 0,
+      "features": "",
+      "usage": "Page headings",
+      "minSize": 28
+    },
+    "headlineM": {
+      "fontSize": 28,
+      "lineHeight": 34,
+      "letterSpacing": 0,
+      "wght": 600,
+      "wdth": 100,
+      "opsz": 28,
+      "GRAD": 0,
+      "features": "",
+      "usage": "Content section and row headings",
+      "minSize": 22
+    },
+    "titleL": {
+      "fontSize": 22,
+      "lineHeight": 28,
+      "letterSpacing": 0,
+      "wght": 600,
+      "wdth": 100,
+      "opsz": 22,
+      "GRAD": 0,
+      "features": "",
+      "usage": "Movie and series cards, detail-page title rows",
+      "minSize": 18
+    },
+    "titleM": {
+      "fontSize": 20,
+      "lineHeight": 26,
+      "letterSpacing": 0,
+      "wght": 600,
+      "wdth": 100,
+      "opsz": 20,
+      "GRAD": 0,
+      "features": "",
+      "usage": "Dialog and panel headings",
+      "minSize": 17
+    },
+    "bodyL": {
+      "fontSize": 18,
+      "lineHeight": 26,
+      "letterSpacing": 0,
+      "wght": 400,
+      "wdth": 100,
+      "opsz": 18,
+      "GRAD": 0,
+      "features": "",
+      "usage": "Synopsis and long descriptions",
+      "minSize": 16
+    },
+    "bodyM": {
+      "fontSize": 16,
+      "lineHeight": 24,
+      "letterSpacing": 0,
+      "wght": 400,
+      "wdth": 100,
+      "opsz": 16,
+      "GRAD": 0,
+      "features": "",
+      "usage": "Standard descriptions",
+      "minSize": 14
+    },
+    "labelL": {
+      "fontSize": 16,
+      "lineHeight": 20,
+      "letterSpacing": 0,
+      "wght": 500,
+      "wdth": 100,
+      "opsz": 16,
+      "GRAD": 0,
+      "features": "",
+      "usage": "Navigation items, tabs",
+      "minSize": 14
+    },
+    "labelM": {
+      "fontSize": 15,
+      "lineHeight": 20,
+      "letterSpacing": 0.01,
+      "wght": 600,
+      "wdth": 100,
+      "opsz": 15,
+      "GRAD": 0,
+      "features": "",
+      "usage": "Buttons and controls",
+      "minSize": 13
+    },
+    "caption": {
+      "fontSize": 13,
+      "lineHeight": 18,
+      "letterSpacing": 0.01,
+      "wght": 400,
+      "wdth": 100,
+      "opsz": 13,
+      "GRAD": 0,
+      "features": "",
+      "usage": "Supporting information",
+      "minSize": 12
+    },
+    "metadata": {
+      "fontSize": 13,
+      "lineHeight": 18,
+      "letterSpacing": 0.01,
+      "wght": 500,
+      "wdth": 100,
+      "opsz": 13,
+      "GRAD": 0,
+      "features": "tnum",
+      "usage": "Ratings, year, runtime, badges",
+      "minSize": 12
+    },
+    "numeric": {
+      "fontSize": 15,
+      "lineHeight": 20,
+      "letterSpacing": 0,
+      "wght": 500,
+      "wdth": 100,
+      "opsz": 15,
+      "GRAD": 0,
+      "features": "tnum",
+      "usage": "Timers, prices and values (tabular)",
+      "minSize": 12
+    },
+    "subtitle": {
+      "fontSize": 24,
+      "lineHeight": 32,
+      "letterSpacing": 0,
+      "wght": 500,
+      "wdth": 100,
+      "opsz": 24,
+      "GRAD": 40,
+      "features": "",
+      "usage": "Playback subtitles and captions",
+      "minSize": 18
+    }
+  },
+  "mobile": {
+    "displayXL": {
+      "fontSize": 40,
+      "lineHeight": 44,
+      "letterSpacing": -0.01,
+      "wght": 700,
+      "wdth": 100,
+      "opsz": 40,
+      "GRAD": 0,
+      "features": "",
+      "usage": "Hero promotional titles",
+      "minSize": 32
+    },
+    "displayL": {
+      "fontSize": 34,
+      "lineHeight": 40,
+      "letterSpacing": -0.0075,
+      "wght": 700,
+      "wdth": 100,
+      "opsz": 34,
+      "GRAD": 0,
+      "features": "",
+      "usage": "Featured movie and series titles",
+      "minSize": 28
+    },
+    "headlineL": {
+      "fontSize": 28,
+      "lineHeight": 34,
+      "letterSpacing": -0.005,
+      "wght": 700,
+      "wdth": 100,
+      "opsz": 28,
+      "GRAD": 0,
+      "features": "",
+      "usage": "Page headings",
+      "minSize": 24
+    },
+    "headlineM": {
+      "fontSize": 24,
+      "lineHeight": 30,
+      "letterSpacing": 0,
+      "wght": 600,
+      "wdth": 100,
+      "opsz": 24,
+      "GRAD": 0,
+      "features": "",
+      "usage": "Content section and row headings",
+      "minSize": 20
+    },
+    "titleL": {
+      "fontSize": 20,
+      "lineHeight": 26,
+      "letterSpacing": 0,
+      "wght": 600,
+      "wdth": 100,
+      "opsz": 20,
+      "GRAD": 0,
+      "features": "",
+      "usage": "Movie and series cards, detail-page title rows",
+      "minSize": 17
+    },
+    "titleM": {
+      "fontSize": 18,
+      "lineHeight": 24,
+      "letterSpacing": 0,
+      "wght": 600,
+      "wdth": 100,
+      "opsz": 18,
+      "GRAD": 0,
+      "features": "",
+      "usage": "Dialog and panel headings",
+      "minSize": 16
+    },
+    "bodyL": {
+      "fontSize": 17,
+      "lineHeight": 24,
+      "letterSpacing": 0,
+      "wght": 400,
+      "wdth": 100,
+      "opsz": 17,
+      "GRAD": 0,
+      "features": "",
+      "usage": "Synopsis and long descriptions",
+      "minSize": 15
+    },
+    "bodyM": {
+      "fontSize": 15,
+      "lineHeight": 22,
+      "letterSpacing": 0,
+      "wght": 400,
+      "wdth": 100,
+      "opsz": 15,
+      "GRAD": 0,
+      "features": "",
+      "usage": "Standard descriptions",
+      "minSize": 13
+    },
+    "labelL": {
+      "fontSize": 15,
+      "lineHeight": 20,
+      "letterSpacing": 0,
+      "wght": 500,
+      "wdth": 100,
+      "opsz": 15,
+      "GRAD": 0,
+      "features": "",
+      "usage": "Navigation items, tabs",
+      "minSize": 13
+    },
+    "labelM": {
+      "fontSize": 14,
+      "lineHeight": 18,
+      "letterSpacing": 0.01,
+      "wght": 600,
+      "wdth": 100,
+      "opsz": 14,
+      "GRAD": 0,
+      "features": "",
+      "usage": "Buttons and controls",
+      "minSize": 12
+    },
+    "caption": {
+      "fontSize": 12,
+      "lineHeight": 16,
+      "letterSpacing": 0.015,
+      "wght": 400,
+      "wdth": 100,
+      "opsz": 12,
+      "GRAD": 0,
+      "features": "",
+      "usage": "Supporting information",
+      "minSize": 11
+    },
+    "metadata": {
+      "fontSize": 12,
+      "lineHeight": 16,
+      "letterSpacing": 0.015,
+      "wght": 500,
+      "wdth": 100,
+      "opsz": 12,
+      "GRAD": 0,
+      "features": "tnum",
+      "usage": "Ratings, year, runtime, badges",
+      "minSize": 11
+    },
+    "numeric": {
+      "fontSize": 13,
+      "lineHeight": 16,
+      "letterSpacing": 0,
+      "wght": 500,
+      "wdth": 100,
+      "opsz": 13,
+      "GRAD": 0,
+      "features": "tnum",
+      "usage": "Timers, prices and values (tabular)",
+      "minSize": 11
+    },
+    "subtitle": {
+      "fontSize": 16,
+      "lineHeight": 22,
+      "letterSpacing": 0,
+      "wght": 500,
+      "wdth": 100,
+      "opsz": 16,
+      "GRAD": 40,
+      "features": "",
+      "usage": "Playback subtitles and captions",
+      "minSize": 14
+    }
+  },
+  "palette": {
+    "dark": {
+      "background": "#0B0D12",
+      "surface": "#161A22",
+      "textPrimary": "#F2F2F2",
+      "textSecondary": "#B3B8C2",
+      "textTertiary": "#8E95A3",
+      "accent": "#C8102E",
+      "focus": "#F2F2F2",
+      "focusRing": "#4DA3FF"
+    },
+    "light": {
+      "background": "#FFFFFF",
+      "surface": "#F3F4F6",
+      "textPrimary": "#14161A",
+      "textSecondary": "#4A4F5A",
+      "textTertiary": "#636A76",
+      "accent": "#B00E28",
+      "focus": "#14161A",
+      "focusRing": "#0A5FD1"
+    },
+    "pairs": {
+      "dark primary text": [
+        "#F2F2F2",
+        "#0B0D12",
+        4.5
+      ],
+      "dark secondary text": [
+        "#B3B8C2",
+        "#0B0D12",
+        4.5
+      ],
+      "dark tertiary / metadata": [
+        "#8E95A3",
+        "#0B0D12",
+        4.5
+      ],
+      "dark text on surface": [
+        "#F2F2F2",
+        "#161A22",
+        4.5
+      ],
+      "dark metadata on surface": [
+        "#8E95A3",
+        "#161A22",
+        4.5
+      ],
+      "focused item (inverted)": [
+        "#0B0D12",
+        "#F2F2F2",
+        4.5
+      ],
+      "accent button label": [
+        "#FFFFFF",
+        "#C8102E",
+        4.5
+      ],
+      "focus ring (non-text)": [
+        "#4DA3FF",
+        "#0B0D12",
+        3.0
+      ],
+      "light primary text": [
+        "#14161A",
+        "#FFFFFF",
+        4.5
+      ],
+      "light secondary text": [
+        "#4A4F5A",
+        "#FFFFFF",
+        4.5
+      ],
+      "light tertiary / metadata": [
+        "#636A76",
+        "#FFFFFF",
+        4.5
+      ],
+      "light metadata on surface": [
+        "#636A76",
+        "#F3F4F6",
+        4.5
+      ],
+      "light accent label": [
+        "#FFFFFF",
+        "#B00E28",
+        4.5
+      ],
+      "light focus ring (non-text)": [
+        "#0A5FD1",
+        "#FFFFFF",
+        3.0
+      ],
+      "subtitle on scrim": [
+        "#FFFFFF",
+        "#1A1A1A",
+        7.0
+      ],
+      "large hero title on 55% scrim (worst case mid-grey)": [
+        "#FFFFFF",
+        "#737373",
+        3.0
+      ]
+    }
+  }
+}

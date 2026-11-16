@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="brokenbar" format="2">
+  <advance width="275"/>
+  <unicode hex="00A6"/>
+  <anchor x="138" y="0" name="bottom"/>
+  <anchor x="120" y="0" name="ogonek"/>
+  <anchor x="138" y="742" name="top"/>
+  <outline>
+    <contour>
+      <point x="224" y="-188" type="line"/>
+      <point x="224" y="235" type="line"/>
+      <point x="51" y="235" type="line"/>
+      <point x="51" y="-188" type="line"/>
+    </contour>
+    <contour>
+      <point x="224" y="345" type="line"/>
+      <point x="224" y="768" type="line"/>
+      <point x="51" y="768" type="line"/>
+      <point x="51" y="345" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="integral" format="2">
+  <advance width="385"/>
+  <unicode hex="222B"/>
+  <anchor x="192" y="0" name="bottom"/>
+  <anchor x="255" y="0" name="ogonek"/>
+  <anchor x="192" y="742" name="top"/>
+  <outline>
+    <contour>
+      <point x="230" y="814"/>
+      <point x="151" y="642"/>
+      <point x="113" y="277" type="curve"/>
+      <point x="84" y="4"/>
+      <point x="56" y="-125"/>
+      <point x="26" y="-125" type="curve"/>
+      <point x="26" y="-250" type="line"/>
+      <point x="157" y="-250"/>
+      <point x="235" y="-86"/>
+      <point x="272" y="261" type="curve"/>
+      <point x="303" y="552"/>
+      <point x="330" y="690"/>
+      <point x="359" y="690" type="curve"/>
+      <point x="359" y="814" type="line"/>
+    </contour>
+  </outline>
+</glyph>

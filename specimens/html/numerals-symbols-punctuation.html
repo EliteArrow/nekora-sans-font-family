@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang='en'><head><meta charset='utf-8'><title>Orion — Numerals, symbols and punctuation</title>
+<style>
+@font-face { font-family: 'Orion'; src: url('../../fonts/variable/Orion-VF.woff2') format('woff2'); font-weight: 100 900; font-stretch: 75% 125%; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { background: #0B0D12; }
+body { font-family: 'Orion', sans-serif; font-optical-sizing: none; font-kerning: normal; -webkit-font-smoothing: antialiased;
+       color: #F2F2F2; background: #0B0D12; font-variation-settings: 'wght' 400, 'wdth' 100, 'opsz' 14, 'GRAD' 0; }
+body.light { color: #14161A; background: #FFFFFF; }
+.tag { font-variation-settings: 'wght' 600, 'wdth' 100, 'opsz' 14, 'GRAD' 0; font-size: 15px; letter-spacing: 0.14em; text-transform: uppercase; color: #8E95A3; }
+.light .tag { color: #636A76; }
+.note { font-size: 16px; line-height: 24px; color: #8E95A3; font-variation-settings: 'wght' 400, 'wdth' 100, 'opsz' 14, 'GRAD' 0; }
+.light .note { color: #636A76; }
+.foot { position: absolute; left: 96px; right: 96px; bottom: 40px; display: flex; justify-content: space-between; font-size: 15px; color: #6B7280;
+        font-variation-settings: 'wght' 500, 'wdth' 100, 'opsz' 12, 'GRAD' 0; letter-spacing: 0.04em; }
+
+body { width: 1920px; min-height: 400px; position: relative; overflow: hidden; }
+
+    body { padding: 72px 96px 90px; }
+    h1 { font-size: 72px; line-height: 80px; letter-spacing: -0.015em; font-variation-settings:'wght' 700,'wdth' 100,'opsz' 72,'GRAD' 0; margin-bottom: 36px; }
+    .r { display: grid; grid-template-columns: 420px 1fr; align-items: baseline; border-top: 1px solid #262B36; padding: 17px 0 15px; }
+    .r .tag { font-size: 14px; line-height: 20px; padding-right: 24px; }
+    .r .s { font-size: 46px; line-height: 58px; font-variation-settings:'wght' 500,'wdth' 100,'opsz' 44,'GRAD' 0; white-space: pre-wrap; }
+    </style></head>
+<body class=''>
+<h1>Numerals, symbols, punctuation</h1><div class='r'><div class='tag'>Proportional figures (default)</div><div class='s' style="">0123456789</div></div><div class='r'><div class='tag'>Tabular figures — tnum</div><div class='s' style="font-feature-settings:'tnum' 1">0123456789</div></div><div class='r'><div class='tag'>Slashed zero — zero</div><div class='s' style="font-feature-settings:'zero' 1">0O 100 2000 B80</div></div><div class='r'><div class='tag'>Tabular clock, colon centred on figures — tnum + calt</div><div class='s' style="font-feature-settings:'tnum' 1">00:59:48  23:11:07  1:41:11</div></div><div class='r'><div class='tag'>Fractions — precomposed and frac</div><div class='s' style="">½ ⅓ ⅔ ¼ ¾ ⅛ ⅜ ⅝ ⅞  <span style="font-feature-settings:'frac' 1">1/2 3/4 5/8 15/16 2 1/3</span></div></div><div class='r'><div class='tag'>Superiors, inferiors, ordinals — sups, subs, ordn</div><div class='s' style="">x<span style="font-feature-settings:'sups' 1">2</span> H<span style="font-feature-settings:'subs' 1">2</span>O CO<span style="font-feature-settings:'subs' 1">2</span> ¹²³⁴⁵⁶⁷⁸⁹⁰ ₀₁₂₃₄₅₆₇₈₉ 1ª 2º <span style="font-feature-settings:'ordn' 1">1a 2o</span> №5</div></div><div class='r'><div class='tag'>Currency</div><div class='s' style="">$ ¢ £ ¥ € ₹ ₽ ₩ ₺ ₴ ₦ ₫ ₪ ₱ ₸ ₿ ƒ ¤ ₼   ₹1,499  €19.99  R$ 39,90  £7.99  ¥980</div></div><div class='r'><div class='tag'>Mathematical</div><div class='s' style="">+ − × ÷ = ≠ &lt; &gt; ≤ ≥ ± ≈ ~ ^ ¬ ∞ √ ∑ ∏ ∫ ∂ ∆ ◊ µ π Ω %  ‰ ° ′ ″</div></div><div class='r'><div class='tag'>Punctuation</div><div class='s' style="">“Quote” ‘single’ „low“ «guillemets» ‹single› — – - _ … · • ¡¿ !? ( ) [ ] { } / \ | ¦ * † ‡ § ¶ @ &amp; #</div></div><div class='r'><div class='tag'>Case-sensitive punctuation — case</div><div class='s' style="">(H-O) [A–Z] {X} «Ñ» ¿QUÉ? ¡YA! A·B @ORION  →  <span style="font-feature-settings:'case' 1">(H-O) [A–Z] {X} «Ñ» ¿QUÉ? ¡YA! A·B @ORION</span></div></div><div class='r'><div class='tag'>Arrows and navigation</div><div class='s' style="">← ↑ → ↓ ↔ ↕ ↖ ↗ ↘ ↙ ↵ ↩ ↪ ⇤ ⇥ ⇧ ⌫ ␣</div></div><div class='r'><div class='tag'>Interface symbols</div><div class='s' style="">▲ ▼ ◀ ▶ ▴ ▾ ◂ ▸ ● ○ ■ □ ◆ ★ ☆ ✓ ✕ © ® ™ ℗</div></div><div class='r'><div class='tag'>Confusable pairs</div><div class='s' style="">Il1|  O0o  S5  B8  69  rn m  cl d  vv w  c e  <span style="font-feature-settings:'ss01' 1,'ss02' 1">Il1 (ss01 + ss02)</span></div></div>
+</body></html>

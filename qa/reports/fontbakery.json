@@ -1,0 +1,99 @@
+{
+ "Orion-VF": {
+  "fonts": 1,
+  "result": {
+   "(not finished)": 0,
+   "INFO": 4,
+   "PASS": 102,
+   "SKIP": 19,
+   "WARN": 2
+  },
+  "notes": {
+   "WARN": {
+    "mandatory_avar_table": [
+     "missing-avar"
+    ],
+    "overlapping_path_segments": [
+     "overlapping-path-segments"
+    ]
+   }
+  }
+ },
+ "Orion-static-ttf": {
+  "fonts": 9,
+  "result": {
+   "(not finished)": 0,
+   "INFO": 36,
+   "PASS": 670,
+   "SKIP": 326,
+   "WARN": 15
+  },
+  "notes": {
+   "WARN": {
+    "contour_count": [
+     "contour-count"
+    ],
+    "overlapping_path_segments": [
+     "overlapping-path-segments"
+    ]
+   }
+  }
+ },
+ "OrionDisplay-static-ttf": {
+  "fonts": 9,
+  "result": {
+   "(not finished)": 0,
+   "INFO": 27,
+   "PASS": 676,
+   "SKIP": 326,
+   "WARN": 18
+  },
+  "notes": {
+   "WARN": {
+    "contour_count": [
+     "contour-count"
+    ],
+    "overlapping_path_segments": [
+     "overlapping-path-segments"
+    ]
+   }
+  }
+ },
+ "OrionCondensed-static-ttf": {
+  "fonts": 9,
+  "result": {
+   "(not finished)": 0,
+   "INFO": 27,
+   "PASS": 679,
+   "SKIP": 326,
+   "WARN": 15
+  },
+  "notes": {
+   "WARN": {
+    "contour_count": [
+     "contour-count"
+    ],
+    "overlapping_path_segments": [
+     "overlapping-path-segments"
+    ]
+   }
+  }
+ },
+ "Orion-static-otf": {
+  "fonts": 9,
+  "result": {
+   "(not finished)": 0,
+   "INFO": 36,
+   "PASS": 595,
+   "SKIP": 407,
+   "WARN": 9
+  },
+  "notes": {
+   "WARN": {
+    "unreachable_glyphs": [
+     "unreachable-glyphs"
+    ]
+   }
+  }
+ }
+}

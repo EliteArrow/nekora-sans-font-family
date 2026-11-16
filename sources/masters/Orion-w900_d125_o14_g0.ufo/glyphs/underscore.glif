@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="underscore" format="2">
+  <advance width="580"/>
+  <unicode hex="005F"/>
+  <anchor x="290" y="0" name="bottom"/>
+  <anchor x="467" y="0" name="ogonek"/>
+  <anchor x="290" y="534" name="top"/>
+  <outline>
+    <contour>
+      <point x="580" y="-217" type="line"/>
+      <point x="580" y="-83" type="line"/>
+      <point x="0" y="-83" type="line"/>
+      <point x="0" y="-217" type="line"/>
+    </contour>
+  </outline>
+</glyph>

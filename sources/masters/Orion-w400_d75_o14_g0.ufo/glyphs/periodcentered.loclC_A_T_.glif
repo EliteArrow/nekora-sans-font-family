@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="periodcentered.loclCAT" format="2">
+  <advance width="76"/>
+  <anchor x="48" y="0" name="bottom"/>
+  <anchor x="58" y="0" name="ogonek"/>
+  <anchor x="48" y="522" name="top"/>
+  <outline>
+    <contour>
+      <point x="101" y="300"/>
+      <point x="87" y="314"/>
+      <point x="48" y="314" type="curve"/>
+      <point x="9" y="314"/>
+      <point x="-5" y="300"/>
+      <point x="-5" y="261" type="curve"/>
+      <point x="-5" y="222"/>
+      <point x="9" y="208"/>
+      <point x="48" y="208" type="curve"/>
+      <point x="87" y="208"/>
+      <point x="101" y="222"/>
+      <point x="101" y="261" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

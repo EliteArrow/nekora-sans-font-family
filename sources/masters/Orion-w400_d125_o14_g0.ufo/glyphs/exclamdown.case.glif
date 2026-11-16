@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="exclamdown.case" format="2">
+  <advance width="260"/>
+  <anchor x="130" y="178" name="bottom"/>
+  <anchor x="141" y="178" name="ogonek"/>
+  <anchor x="130" y="700" name="top"/>
+  <outline>
+    <component base="exclamdown" yOffset="178"/>
+  </outline>
+</glyph>

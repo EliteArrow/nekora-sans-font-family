@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="guillemotleft" format="2">
+  <advance width="595"/>
+  <unicode hex="00AB"/>
+  <anchor x="284" y="0" name="bottom"/>
+  <anchor x="451" y="0" name="ogonek"/>
+  <anchor x="284" y="522" name="top"/>
+  <outline>
+    <contour>
+      <point x="75" y="261" type="line"/>
+      <point x="265" y="29" type="line"/>
+      <point x="265" y="154" type="line"/>
+      <point x="178" y="261" type="line"/>
+      <point x="265" y="368" type="line"/>
+      <point x="265" y="493" type="line"/>
+    </contour>
+    <contour>
+      <point x="331" y="261" type="line"/>
+      <point x="521" y="29" type="line"/>
+      <point x="521" y="154" type="line"/>
+      <point x="433" y="261" type="line"/>
+      <point x="521" y="368" type="line"/>
+      <point x="521" y="493" type="line"/>
+    </contour>
+  </outline>
+</glyph>

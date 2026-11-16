@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="theta" format="2">
+  <advance width="556"/>
+  <unicode hex="03B8"/>
+  <anchor x="278" y="0" name="bottom"/>
+  <anchor x="489" y="0" name="ogonek"/>
+  <anchor x="278" y="742" name="top"/>
+  <outline>
+    <contour>
+      <point x="501" y="596"/>
+      <point x="409" y="753"/>
+      <point x="278" y="753" type="curve"/>
+      <point x="147" y="753"/>
+      <point x="55" y="596"/>
+      <point x="55" y="371" type="curve"/>
+      <point x="55" y="146"/>
+      <point x="147" y="-11"/>
+      <point x="278" y="-11" type="curve"/>
+      <point x="409" y="-11"/>
+      <point x="501" y="146"/>
+      <point x="501" y="371" type="curve"/>
+    </contour>
+    <contour>
+      <point x="479" y="157"/>
+      <point x="399" y="9"/>
+      <point x="278" y="9" type="curve"/>
+      <point x="157" y="9"/>
+      <point x="77" y="157"/>
+      <point x="77" y="371" type="curve"/>
+      <point x="77" y="585"/>
+      <point x="157" y="733"/>
+      <point x="278" y="733" type="curve"/>
+      <point x="399" y="733"/>
+      <point x="479" y="585"/>
+      <point x="479" y="371" type="curve"/>
+    </contour>
+    <contour>
+      <point x="490" y="362" type="line"/>
+      <point x="490" y="380" type="line"/>
+      <point x="66" y="380" type="line"/>
+      <point x="66" y="362" type="line"/>
+    </contour>
+  </outline>
+</glyph>

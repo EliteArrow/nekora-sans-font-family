@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dieresistonoscomb" format="2">
+  <anchor x="0" y="522" name="_top"/>
+  <anchor x="0" y="667" name="top"/>
+  <outline>
+    <contour>
+      <point x="-126" y="654"/>
+      <point x="-137" y="665"/>
+      <point x="-169" y="665" type="curve"/>
+      <point x="-200" y="665"/>
+      <point x="-212" y="654"/>
+      <point x="-212" y="622" type="curve"/>
+      <point x="-212" y="590"/>
+      <point x="-200" y="579"/>
+      <point x="-169" y="579" type="curve"/>
+      <point x="-137" y="579"/>
+      <point x="-126" y="590"/>
+      <point x="-126" y="622" type="curve"/>
+    </contour>
+    <contour>
+      <point x="212" y="654"/>
+      <point x="200" y="665"/>
+      <point x="169" y="665" type="curve"/>
+      <point x="137" y="665"/>
+      <point x="126" y="654"/>
+      <point x="126" y="622" type="curve"/>
+      <point x="126" y="590"/>
+      <point x="137" y="579"/>
+      <point x="169" y="579" type="curve"/>
+      <point x="200" y="579"/>
+      <point x="212" y="590"/>
+      <point x="212" y="622" type="curve"/>
+    </contour>
+    <contour>
+      <point x="11" y="579" type="line"/>
+      <point x="60" y="698" type="line"/>
+      <point x="-28" y="698" type="line"/>
+      <point x="-44" y="579" type="line"/>
+    </contour>
+  </outline>
+</glyph>

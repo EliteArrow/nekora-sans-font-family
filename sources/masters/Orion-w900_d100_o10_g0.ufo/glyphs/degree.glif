@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="degree" format="2">
+  <advance width="428"/>
+  <unicode hex="00B0"/>
+  <anchor x="214" y="0" name="bottom"/>
+  <anchor x="288" y="0" name="ogonek"/>
+  <anchor x="214" y="742" name="top"/>
+  <outline>
+    <contour>
+      <point x="387" y="647"/>
+      <point x="320" y="714"/>
+      <point x="214" y="714" type="curve"/>
+      <point x="109" y="714"/>
+      <point x="42" y="647"/>
+      <point x="42" y="541" type="curve"/>
+      <point x="42" y="436"/>
+      <point x="109" y="369"/>
+      <point x="214" y="369" type="curve"/>
+      <point x="320" y="369"/>
+      <point x="387" y="436"/>
+      <point x="387" y="541" type="curve"/>
+    </contour>
+    <contour>
+      <point x="291" y="492"/>
+      <point x="261" y="461"/>
+      <point x="214" y="461" type="curve"/>
+      <point x="167" y="461"/>
+      <point x="137" y="492"/>
+      <point x="137" y="541" type="curve"/>
+      <point x="137" y="590"/>
+      <point x="167" y="622"/>
+      <point x="214" y="622" type="curve"/>
+      <point x="261" y="622"/>
+      <point x="291" y="590"/>
+      <point x="291" y="541" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

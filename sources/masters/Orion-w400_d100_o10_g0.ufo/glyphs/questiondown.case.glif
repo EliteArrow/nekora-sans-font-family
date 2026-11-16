@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="questiondown.case" format="2">
+  <advance width="533"/>
+  <anchor x="238" y="170" name="bottom"/>
+  <anchor x="373" y="170" name="ogonek"/>
+  <anchor x="238" y="700" name="top"/>
+  <outline>
+    <component base="questiondown" yOffset="170"/>
+  </outline>
+</glyph>

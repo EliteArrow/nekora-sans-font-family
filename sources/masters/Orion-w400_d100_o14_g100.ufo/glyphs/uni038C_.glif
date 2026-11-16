@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni038C" format="2">
+  <advance width="960"/>
+  <unicode hex="038C"/>
+  <anchor x="562" y="0" name="bottom"/>
+  <anchor x="791" y="617" name="horn"/>
+  <anchor x="631" y="0" name="ogonek"/>
+  <anchor x="562" y="700" name="top"/>
+  <outline>
+    <component base="Omicron" xOffset="164"/>
+    <component base="tonoscomb.case" xOffset="28"/>
+  </outline>
+</glyph>

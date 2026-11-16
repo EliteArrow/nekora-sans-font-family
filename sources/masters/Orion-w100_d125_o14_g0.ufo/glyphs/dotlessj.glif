@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dotlessj" format="2">
+  <advance width="264"/>
+  <unicode hex="0237"/>
+  <anchor x="82" y="0" name="bottom"/>
+  <anchor x="164" y="0" name="ogonek"/>
+  <anchor x="82" y="518" name="top"/>
+  <outline>
+    <contour>
+      <point x="152" y="9" type="line"/>
+      <point x="152" y="-100"/>
+      <point x="82" y="-179"/>
+      <point x="-14" y="-179" type="curve"/>
+      <point x="-14" y="-204" type="line"/>
+      <point x="97" y="-204"/>
+      <point x="178" y="-114"/>
+      <point x="178" y="9" type="curve"/>
+      <point x="178" y="518" type="line"/>
+      <point x="152" y="518" type="line"/>
+    </contour>
+  </outline>
+</glyph>

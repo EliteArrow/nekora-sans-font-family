@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fraction" format="2">
+  <advance width="76"/>
+  <unicode hex="2044"/>
+  <anchor x="38" y="0" name="bottom"/>
+  <anchor x="200" y="0" name="ogonek"/>
+  <anchor x="38" y="742" name="top"/>
+  <outline>
+    <contour>
+      <point x="-119" y="-28" type="line"/>
+      <point x="210" y="728" type="line"/>
+      <point x="196" y="728" type="line"/>
+      <point x="-134" y="-28" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="exclam" format="2">
+  <advance width="294"/>
+  <unicode hex="0021"/>
+  <anchor x="147" y="0" name="bottom"/>
+  <anchor x="149" y="0" name="ogonek"/>
+  <anchor x="147" y="742" name="top"/>
+  <outline>
+    <contour>
+      <point x="237" y="301" type="line"/>
+      <point x="267" y="700" type="line"/>
+      <point x="41" y="700" type="line"/>
+      <point x="70" y="301" type="line"/>
+    </contour>
+    <contour>
+      <point x="264" y="192"/>
+      <point x="236" y="221"/>
+      <point x="154" y="221" type="curve"/>
+      <point x="72" y="221"/>
+      <point x="43" y="192"/>
+      <point x="43" y="110" type="curve"/>
+      <point x="43" y="29"/>
+      <point x="72" y="0"/>
+      <point x="154" y="0" type="curve"/>
+      <point x="236" y="0"/>
+      <point x="264" y="29"/>
+      <point x="264" y="110" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Xi" format="2">
+  <advance width="806"/>
+  <unicode hex="039E"/>
+  <anchor x="403" y="0" name="bottom"/>
+  <anchor x="652" y="0" name="ogonek"/>
+  <anchor x="403" y="700" name="top"/>
+  <outline>
+    <contour>
+      <point x="770" y="540" type="line"/>
+      <point x="770" y="700" type="line"/>
+      <point x="36" y="700" type="line"/>
+      <point x="36" y="540" type="line"/>
+    </contour>
+    <contour>
+      <point x="770" y="0" type="line"/>
+      <point x="770" y="160" type="line"/>
+      <point x="36" y="160" type="line"/>
+      <point x="36" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="696" y="287" type="line"/>
+      <point x="696" y="441" type="line"/>
+      <point x="109" y="441" type="line"/>
+      <point x="109" y="287" type="line"/>
+    </contour>
+  </outline>
+</glyph>

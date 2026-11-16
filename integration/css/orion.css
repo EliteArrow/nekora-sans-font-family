@@ -1,0 +1,1013 @@
+/* Orion — web integration. Generated from tokens/orion-type-presets.json by tokens/build_tokens.py. */
+
+/* 1. Variable font (Chromium >= 62, Safari >= 11, Firefox >= 62; Tizen >= 6.5, webOS >= 5). */
+@font-face {
+  font-family: 'Orion';
+  src: url('../../fonts/variable/Orion-VF.woff2') format('woff2-variations'),
+       url('../../fonts/variable/Orion-VF.woff2') format('woff2'),
+       url('../../fonts/variable/Orion-VF.ttf') format('truetype');
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 2. Static fallback family for engines without variable-font support (webOS 3-4, Tizen <= 6.0, old Android WebView). */
+@font-face {
+  font-family: 'Orion Static';
+  src: url('../../fonts/webfonts/Orion-Light.woff2') format('woff2'),
+       url('../../fonts/static/Orion/Orion-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Orion Static';
+  src: url('../../fonts/webfonts/Orion-Regular.woff2') format('woff2'),
+       url('../../fonts/static/Orion/Orion-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Orion Static';
+  src: url('../../fonts/webfonts/Orion-Medium.woff2') format('woff2'),
+       url('../../fonts/static/Orion/Orion-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Orion Static';
+  src: url('../../fonts/webfonts/Orion-SemiBold.woff2') format('woff2'),
+       url('../../fonts/static/Orion/Orion-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Orion Static';
+  src: url('../../fonts/webfonts/Orion-Bold.woff2') format('woff2'),
+       url('../../fonts/static/Orion/Orion-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Orion Static';
+  src: url('../../fonts/webfonts/Orion-Black.woff2') format('woff2'),
+       url('../../fonts/static/Orion/Orion-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Orion Display Static';
+  src: url('../../fonts/webfonts/OrionDisplay-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Orion Display Static';
+  src: url('../../fonts/webfonts/OrionDisplay-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --orion-font: 'Orion Static', system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', sans-serif;
+  --orion-font-display: 'Orion Display Static', 'Orion Static', system-ui, sans-serif;
+  --orion-grade: 0;            /* -50..100: raise on bright video, lower on OLED dark UI */
+}
+@supports (font-variation-settings: 'wght' 400) {
+  :root {
+    --orion-font: 'Orion', system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', sans-serif;
+    --orion-font-display: 'Orion', system-ui, sans-serif;
+  }
+}
+
+.orion { font-family: var(--orion-font); font-optical-sizing: auto; font-kerning: normal; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; }
+.orion-tnum { font-variant-numeric: tabular-nums; }
+.orion-zero { font-feature-settings: "zero" 1; }
+.orion-case { font-feature-settings: "case" 1; }
+.orion-frac { font-variant-numeric: diagonal-fractions; }
+.orion-ss01 { font-feature-settings: "ss01" 1; }   /* serifed I */
+.orion-ss02 { font-feature-settings: "ss02" 1; }   /* plain l */
+.orion-ss03 { font-feature-settings: "ss03" 1; }   /* single-storey a */
+.orion-condensed { font-stretch: 75%; }
+.orion-extended { font-stretch: 125%; }
+
+/* ---- tv presets (1920 x 1080 px (scale by 2 for 4K, by 0.667 for 720p)) ---- */
+.orion-tv-display-xl {
+  font-family: var(--orion-font-display);
+  font-size: 96px;
+  line-height: 104px;
+  font-weight: 700;
+  font-stretch: 100%;
+  letter-spacing: -0.01em;
+  font-variation-settings: 'opsz' 72, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-tv-display-l {
+  font-family: var(--orion-font-display);
+  font-size: 72px;
+  line-height: 80px;
+  font-weight: 700;
+  font-stretch: 100%;
+  letter-spacing: -0.0075em;
+  font-variation-settings: 'opsz' 72, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-tv-headline-l {
+  font-family: var(--orion-font-display);
+  font-size: 56px;
+  line-height: 64px;
+  font-weight: 600;
+  font-stretch: 100%;
+  letter-spacing: -0.005em;
+  font-variation-settings: 'opsz' 56, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-tv-headline-m {
+  font-family: var(--orion-font-display);
+  font-size: 44px;
+  line-height: 52px;
+  font-weight: 600;
+  font-stretch: 100%;
+  letter-spacing: -0.0025em;
+  font-variation-settings: 'opsz' 44, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-tv-title-l {
+  font-family: var(--orion-font);
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 500;
+  font-stretch: 100%;
+  letter-spacing: 0em;
+  font-variation-settings: 'opsz' 36, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-tv-title-m {
+  font-family: var(--orion-font);
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 600;
+  font-stretch: 100%;
+  letter-spacing: 0em;
+  font-variation-settings: 'opsz' 32, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-tv-body-l {
+  font-family: var(--orion-font);
+  font-size: 30px;
+  line-height: 42px;
+  font-weight: 400;
+  font-stretch: 100%;
+  letter-spacing: 0em;
+  font-variation-settings: 'opsz' 28, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-tv-body-m {
+  font-family: var(--orion-font);
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: 400;
+  font-stretch: 100%;
+  letter-spacing: 0.005em;
+  font-variation-settings: 'opsz' 26, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-tv-label-l {
+  font-family: var(--orion-font);
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 500;
+  font-stretch: 100%;
+  letter-spacing: 0.005em;
+  font-variation-settings: 'opsz' 28, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-tv-label-m {
+  font-family: var(--orion-font);
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: 600;
+  font-stretch: 100%;
+  letter-spacing: 0.01em;
+  font-variation-settings: 'opsz' 26, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-tv-caption {
+  font-family: var(--orion-font);
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+  font-stretch: 100%;
+  letter-spacing: 0.01em;
+  font-variation-settings: 'opsz' 20, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-tv-metadata {
+  font-family: var(--orion-font);
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 500;
+  font-stretch: 100%;
+  letter-spacing: 0.01em;
+  font-variation-settings: 'opsz' 20, 'GRAD' calc(var(--orion-grade) + 0);
+  font-variant-numeric: tabular-nums;
+}
+.orion-tv-numeric {
+  font-family: var(--orion-font);
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: 500;
+  font-stretch: 100%;
+  letter-spacing: 0em;
+  font-variation-settings: 'opsz' 24, 'GRAD' calc(var(--orion-grade) + 0);
+  font-variant-numeric: tabular-nums;
+}
+.orion-tv-subtitle {
+  font-family: var(--orion-font);
+  font-size: 46px;
+  line-height: 58px;
+  font-weight: 500;
+  font-stretch: 100%;
+  letter-spacing: 0em;
+  font-variation-settings: 'opsz' 40, 'GRAD' calc(var(--orion-grade) + 40);
+}
+
+/* ---- desktop presets (CSS px) ---- */
+.orion-desktop-display-xl {
+  font-family: var(--orion-font-display);
+  font-size: 72px;
+  line-height: 80px;
+  font-weight: 700;
+  font-stretch: 100%;
+  letter-spacing: -0.01em;
+  font-variation-settings: 'opsz' 72, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-desktop-display-l {
+  font-family: var(--orion-font-display);
+  font-size: 56px;
+  line-height: 62px;
+  font-weight: 700;
+  font-stretch: 100%;
+  letter-spacing: -0.0075em;
+  font-variation-settings: 'opsz' 56, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-desktop-headline-l {
+  font-family: var(--orion-font-display);
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 600;
+  font-stretch: 100%;
+  letter-spacing: -0.005em;
+  font-variation-settings: 'opsz' 40, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-desktop-headline-m {
+  font-family: var(--orion-font-display);
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 600;
+  font-stretch: 100%;
+  letter-spacing: -0.0025em;
+  font-variation-settings: 'opsz' 32, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-desktop-title-l {
+  font-family: var(--orion-font);
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+  font-stretch: 100%;
+  letter-spacing: 0em;
+  font-variation-settings: 'opsz' 24, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-desktop-title-m {
+  font-family: var(--orion-font);
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  font-stretch: 100%;
+  letter-spacing: 0em;
+  font-variation-settings: 'opsz' 20, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-desktop-body-l {
+  font-family: var(--orion-font);
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  font-stretch: 100%;
+  letter-spacing: 0em;
+  font-variation-settings: 'opsz' 18, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-desktop-body-m {
+  font-family: var(--orion-font);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-stretch: 100%;
+  letter-spacing: 0em;
+  font-variation-settings: 'opsz' 16, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-desktop-label-l {
+  font-family: var(--orion-font);
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  font-stretch: 100%;
+  letter-spacing: 0em;
+  font-variation-settings: 'opsz' 16, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-desktop-label-m {
+  font-family: var(--orion-font);
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  font-stretch: 100%;
+  letter-spacing: 0.01em;
+  font-variation-settings: 'opsz' 14, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-desktop-caption {
+  font-family: var(--orion-font);
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  font-stretch: 100%;
+  letter-spacing: 0.01em;
+  font-variation-settings: 'opsz' 13, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-desktop-metadata {
+  font-family: var(--orion-font);
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 500;
+  font-stretch: 100%;
+  letter-spacing: 0.01em;
+  font-variation-settings: 'opsz' 13, 'GRAD' calc(var(--orion-grade) + 0);
+  font-variant-numeric: tabular-nums;
+}
+.orion-desktop-numeric {
+  font-family: var(--orion-font);
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  font-stretch: 100%;
+  letter-spacing: 0em;
+  font-variation-settings: 'opsz' 14, 'GRAD' calc(var(--orion-grade) + 0);
+  font-variant-numeric: tabular-nums;
+}
+.orion-desktop-subtitle {
+  font-family: var(--orion-font);
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 500;
+  font-stretch: 100%;
+  letter-spacing: 0em;
+  font-variation-settings: 'opsz' 30, 'GRAD' calc(var(--orion-grade) + 40);
+}
+
+/* ---- tablet presets (pt / dp) ---- */
+.orion-tablet-display-xl {
+  font-family: var(--orion-font-display);
+  font-size: 56px;
+  line-height: 62px;
+  font-weight: 700;
+  font-stretch: 100%;
+  letter-spacing: -0.01em;
+  font-variation-settings: 'opsz' 56, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-tablet-display-l {
+  font-family: var(--orion-font-display);
+  font-size: 44px;
+  line-height: 48px;
+  font-weight: 700;
+  font-stretch: 100%;
+  letter-spacing: -0.0075em;
+  font-variation-settings: 'opsz' 44, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-tablet-headline-l {
+  font-family: var(--orion-font-display);
+  font-size: 34px;
+  line-height: 40px;
+  font-weight: 600;
+  font-stretch: 100%;
+  letter-spacing: -0.005em;
+  font-variation-settings: 'opsz' 34, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-tablet-headline-m {
+  font-family: var(--orion-font-display);
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 600;
+  font-stretch: 100%;
+  letter-spacing: 0em;
+  font-variation-settings: 'opsz' 28, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-tablet-title-l {
+  font-family: var(--orion-font);
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 600;
+  font-stretch: 100%;
+  letter-spacing: 0em;
+  font-variation-settings: 'opsz' 22, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-tablet-title-m {
+  font-family: var(--orion-font);
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 600;
+  font-stretch: 100%;
+  letter-spacing: 0em;
+  font-variation-settings: 'opsz' 20, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-tablet-body-l {
+  font-family: var(--orion-font);
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  font-stretch: 100%;
+  letter-spacing: 0em;
+  font-variation-settings: 'opsz' 18, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-tablet-body-m {
+  font-family: var(--orion-font);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-stretch: 100%;
+  letter-spacing: 0em;
+  font-variation-settings: 'opsz' 16, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-tablet-label-l {
+  font-family: var(--orion-font);
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  font-stretch: 100%;
+  letter-spacing: 0em;
+  font-variation-settings: 'opsz' 16, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-tablet-label-m {
+  font-family: var(--orion-font);
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 600;
+  font-stretch: 100%;
+  letter-spacing: 0.01em;
+  font-variation-settings: 'opsz' 15, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-tablet-caption {
+  font-family: var(--orion-font);
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  font-stretch: 100%;
+  letter-spacing: 0.01em;
+  font-variation-settings: 'opsz' 13, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-tablet-metadata {
+  font-family: var(--orion-font);
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 500;
+  font-stretch: 100%;
+  letter-spacing: 0.01em;
+  font-variation-settings: 'opsz' 13, 'GRAD' calc(var(--orion-grade) + 0);
+  font-variant-numeric: tabular-nums;
+}
+.orion-tablet-numeric {
+  font-family: var(--orion-font);
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+  font-stretch: 100%;
+  letter-spacing: 0em;
+  font-variation-settings: 'opsz' 15, 'GRAD' calc(var(--orion-grade) + 0);
+  font-variant-numeric: tabular-nums;
+}
+.orion-tablet-subtitle {
+  font-family: var(--orion-font);
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 500;
+  font-stretch: 100%;
+  letter-spacing: 0em;
+  font-variation-settings: 'opsz' 24, 'GRAD' calc(var(--orion-grade) + 40);
+}
+
+/* ---- mobile presets (pt / sp) ---- */
+.orion-mobile-display-xl {
+  font-family: var(--orion-font-display);
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 700;
+  font-stretch: 100%;
+  letter-spacing: -0.01em;
+  font-variation-settings: 'opsz' 40, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-mobile-display-l {
+  font-family: var(--orion-font-display);
+  font-size: 34px;
+  line-height: 40px;
+  font-weight: 700;
+  font-stretch: 100%;
+  letter-spacing: -0.0075em;
+  font-variation-settings: 'opsz' 34, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-mobile-headline-l {
+  font-family: var(--orion-font-display);
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 700;
+  font-stretch: 100%;
+  letter-spacing: -0.005em;
+  font-variation-settings: 'opsz' 28, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-mobile-headline-m {
+  font-family: var(--orion-font-display);
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 600;
+  font-stretch: 100%;
+  letter-spacing: 0em;
+  font-variation-settings: 'opsz' 24, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-mobile-title-l {
+  font-family: var(--orion-font);
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 600;
+  font-stretch: 100%;
+  letter-spacing: 0em;
+  font-variation-settings: 'opsz' 20, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-mobile-title-m {
+  font-family: var(--orion-font);
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+  font-stretch: 100%;
+  letter-spacing: 0em;
+  font-variation-settings: 'opsz' 18, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-mobile-body-l {
+  font-family: var(--orion-font);
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 400;
+  font-stretch: 100%;
+  letter-spacing: 0em;
+  font-variation-settings: 'opsz' 17, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-mobile-body-m {
+  font-family: var(--orion-font);
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+  font-stretch: 100%;
+  letter-spacing: 0em;
+  font-variation-settings: 'opsz' 15, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-mobile-label-l {
+  font-family: var(--orion-font);
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+  font-stretch: 100%;
+  letter-spacing: 0em;
+  font-variation-settings: 'opsz' 15, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-mobile-label-m {
+  font-family: var(--orion-font);
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 600;
+  font-stretch: 100%;
+  letter-spacing: 0.01em;
+  font-variation-settings: 'opsz' 14, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-mobile-caption {
+  font-family: var(--orion-font);
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  font-stretch: 100%;
+  letter-spacing: 0.015em;
+  font-variation-settings: 'opsz' 12, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-mobile-metadata {
+  font-family: var(--orion-font);
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+  font-stretch: 100%;
+  letter-spacing: 0.015em;
+  font-variation-settings: 'opsz' 12, 'GRAD' calc(var(--orion-grade) + 0);
+  font-variant-numeric: tabular-nums;
+}
+.orion-mobile-numeric {
+  font-family: var(--orion-font);
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 500;
+  font-stretch: 100%;
+  letter-spacing: 0em;
+  font-variation-settings: 'opsz' 13, 'GRAD' calc(var(--orion-grade) + 0);
+  font-variant-numeric: tabular-nums;
+}
+.orion-mobile-subtitle {
+  font-family: var(--orion-font);
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  font-stretch: 100%;
+  letter-spacing: 0em;
+  font-variation-settings: 'opsz' 16, 'GRAD' calc(var(--orion-grade) + 40);
+}
+
+/* Responsive aliases: .orion-<token> picks the platform preset from the viewport (TV apps should use .orion-tv-* directly). */
+.orion-display-xl {
+  font-family: var(--orion-font-display);
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 700;
+  font-stretch: 100%;
+  letter-spacing: -0.01em;
+  font-variation-settings: 'opsz' 40, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-display-l {
+  font-family: var(--orion-font-display);
+  font-size: 34px;
+  line-height: 40px;
+  font-weight: 700;
+  font-stretch: 100%;
+  letter-spacing: -0.0075em;
+  font-variation-settings: 'opsz' 34, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-headline-l {
+  font-family: var(--orion-font-display);
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 700;
+  font-stretch: 100%;
+  letter-spacing: -0.005em;
+  font-variation-settings: 'opsz' 28, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-headline-m {
+  font-family: var(--orion-font-display);
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 600;
+  font-stretch: 100%;
+  letter-spacing: 0em;
+  font-variation-settings: 'opsz' 24, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-title-l {
+  font-family: var(--orion-font);
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 600;
+  font-stretch: 100%;
+  letter-spacing: 0em;
+  font-variation-settings: 'opsz' 20, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-title-m {
+  font-family: var(--orion-font);
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+  font-stretch: 100%;
+  letter-spacing: 0em;
+  font-variation-settings: 'opsz' 18, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-body-l {
+  font-family: var(--orion-font);
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 400;
+  font-stretch: 100%;
+  letter-spacing: 0em;
+  font-variation-settings: 'opsz' 17, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-body-m {
+  font-family: var(--orion-font);
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+  font-stretch: 100%;
+  letter-spacing: 0em;
+  font-variation-settings: 'opsz' 15, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-label-l {
+  font-family: var(--orion-font);
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+  font-stretch: 100%;
+  letter-spacing: 0em;
+  font-variation-settings: 'opsz' 15, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-label-m {
+  font-family: var(--orion-font);
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 600;
+  font-stretch: 100%;
+  letter-spacing: 0.01em;
+  font-variation-settings: 'opsz' 14, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-caption {
+  font-family: var(--orion-font);
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  font-stretch: 100%;
+  letter-spacing: 0.015em;
+  font-variation-settings: 'opsz' 12, 'GRAD' calc(var(--orion-grade) + 0);
+}
+.orion-metadata {
+  font-family: var(--orion-font);
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+  font-stretch: 100%;
+  letter-spacing: 0.015em;
+  font-variation-settings: 'opsz' 12, 'GRAD' calc(var(--orion-grade) + 0);
+  font-variant-numeric: tabular-nums;
+}
+.orion-numeric {
+  font-family: var(--orion-font);
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 500;
+  font-stretch: 100%;
+  letter-spacing: 0em;
+  font-variation-settings: 'opsz' 13, 'GRAD' calc(var(--orion-grade) + 0);
+  font-variant-numeric: tabular-nums;
+}
+.orion-subtitle {
+  font-family: var(--orion-font);
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  font-stretch: 100%;
+  letter-spacing: 0em;
+  font-variation-settings: 'opsz' 16, 'GRAD' calc(var(--orion-grade) + 40);
+}
+@media (min-width: 600px) {
+  .orion-display-xl {
+    font-family: var(--orion-font-display);
+    font-size: 56px;
+    line-height: 62px;
+    font-weight: 700;
+    font-stretch: 100%;
+    letter-spacing: -0.01em;
+    font-variation-settings: 'opsz' 56, 'GRAD' calc(var(--orion-grade) + 0);
+  }
+  .orion-display-l {
+    font-family: var(--orion-font-display);
+    font-size: 44px;
+    line-height: 48px;
+    font-weight: 700;
+    font-stretch: 100%;
+    letter-spacing: -0.0075em;
+    font-variation-settings: 'opsz' 44, 'GRAD' calc(var(--orion-grade) + 0);
+  }
+  .orion-headline-l {
+    font-family: var(--orion-font-display);
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 600;
+    font-stretch: 100%;
+    letter-spacing: -0.005em;
+    font-variation-settings: 'opsz' 34, 'GRAD' calc(var(--orion-grade) + 0);
+  }
+  .orion-headline-m {
+    font-family: var(--orion-font-display);
+    font-size: 28px;
+    line-height: 34px;
+    font-weight: 600;
+    font-stretch: 100%;
+    letter-spacing: 0em;
+    font-variation-settings: 'opsz' 28, 'GRAD' calc(var(--orion-grade) + 0);
+  }
+  .orion-title-l {
+    font-family: var(--orion-font);
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 600;
+    font-stretch: 100%;
+    letter-spacing: 0em;
+    font-variation-settings: 'opsz' 22, 'GRAD' calc(var(--orion-grade) + 0);
+  }
+  .orion-title-m {
+    font-family: var(--orion-font);
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 600;
+    font-stretch: 100%;
+    letter-spacing: 0em;
+    font-variation-settings: 'opsz' 20, 'GRAD' calc(var(--orion-grade) + 0);
+  }
+  .orion-body-l {
+    font-family: var(--orion-font);
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    font-stretch: 100%;
+    letter-spacing: 0em;
+    font-variation-settings: 'opsz' 18, 'GRAD' calc(var(--orion-grade) + 0);
+  }
+  .orion-body-m {
+    font-family: var(--orion-font);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-stretch: 100%;
+    letter-spacing: 0em;
+    font-variation-settings: 'opsz' 16, 'GRAD' calc(var(--orion-grade) + 0);
+  }
+  .orion-label-l {
+    font-family: var(--orion-font);
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    font-stretch: 100%;
+    letter-spacing: 0em;
+    font-variation-settings: 'opsz' 16, 'GRAD' calc(var(--orion-grade) + 0);
+  }
+  .orion-label-m {
+    font-family: var(--orion-font);
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+    font-stretch: 100%;
+    letter-spacing: 0.01em;
+    font-variation-settings: 'opsz' 15, 'GRAD' calc(var(--orion-grade) + 0);
+  }
+  .orion-caption {
+    font-family: var(--orion-font);
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+    font-stretch: 100%;
+    letter-spacing: 0.01em;
+    font-variation-settings: 'opsz' 13, 'GRAD' calc(var(--orion-grade) + 0);
+  }
+  .orion-metadata {
+    font-family: var(--orion-font);
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 500;
+    font-stretch: 100%;
+    letter-spacing: 0.01em;
+    font-variation-settings: 'opsz' 13, 'GRAD' calc(var(--orion-grade) + 0);
+    font-variant-numeric: tabular-nums;
+  }
+  .orion-numeric {
+    font-family: var(--orion-font);
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    font-stretch: 100%;
+    letter-spacing: 0em;
+    font-variation-settings: 'opsz' 15, 'GRAD' calc(var(--orion-grade) + 0);
+    font-variant-numeric: tabular-nums;
+  }
+  .orion-subtitle {
+    font-family: var(--orion-font);
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 500;
+    font-stretch: 100%;
+    letter-spacing: 0em;
+    font-variation-settings: 'opsz' 24, 'GRAD' calc(var(--orion-grade) + 40);
+  }
+}
+@media (min-width: 1024px) {
+  .orion-display-xl {
+    font-family: var(--orion-font-display);
+    font-size: 72px;
+    line-height: 80px;
+    font-weight: 700;
+    font-stretch: 100%;
+    letter-spacing: -0.01em;
+    font-variation-settings: 'opsz' 72, 'GRAD' calc(var(--orion-grade) + 0);
+  }
+  .orion-display-l {
+    font-family: var(--orion-font-display);
+    font-size: 56px;
+    line-height: 62px;
+    font-weight: 700;
+    font-stretch: 100%;
+    letter-spacing: -0.0075em;
+    font-variation-settings: 'opsz' 56, 'GRAD' calc(var(--orion-grade) + 0);
+  }
+  .orion-headline-l {
+    font-family: var(--orion-font-display);
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 600;
+    font-stretch: 100%;
+    letter-spacing: -0.005em;
+    font-variation-settings: 'opsz' 40, 'GRAD' calc(var(--orion-grade) + 0);
+  }
+  .orion-headline-m {
+    font-family: var(--orion-font-display);
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 600;
+    font-stretch: 100%;
+    letter-spacing: -0.0025em;
+    font-variation-settings: 'opsz' 32, 'GRAD' calc(var(--orion-grade) + 0);
+  }
+  .orion-title-l {
+    font-family: var(--orion-font);
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+    font-stretch: 100%;
+    letter-spacing: 0em;
+    font-variation-settings: 'opsz' 24, 'GRAD' calc(var(--orion-grade) + 0);
+  }
+  .orion-title-m {
+    font-family: var(--orion-font);
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    font-stretch: 100%;
+    letter-spacing: 0em;
+    font-variation-settings: 'opsz' 20, 'GRAD' calc(var(--orion-grade) + 0);
+  }
+  .orion-body-l {
+    font-family: var(--orion-font);
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    font-stretch: 100%;
+    letter-spacing: 0em;
+    font-variation-settings: 'opsz' 18, 'GRAD' calc(var(--orion-grade) + 0);
+  }
+  .orion-body-m {
+    font-family: var(--orion-font);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-stretch: 100%;
+    letter-spacing: 0em;
+    font-variation-settings: 'opsz' 16, 'GRAD' calc(var(--orion-grade) + 0);
+  }
+  .orion-label-l {
+    font-family: var(--orion-font);
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    font-stretch: 100%;
+    letter-spacing: 0em;
+    font-variation-settings: 'opsz' 16, 'GRAD' calc(var(--orion-grade) + 0);
+  }
+  .orion-label-m {
+    font-family: var(--orion-font);
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    font-stretch: 100%;
+    letter-spacing: 0.01em;
+    font-variation-settings: 'opsz' 14, 'GRAD' calc(var(--orion-grade) + 0);
+  }
+  .orion-caption {
+    font-family: var(--orion-font);
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+    font-stretch: 100%;
+    letter-spacing: 0.01em;
+    font-variation-settings: 'opsz' 13, 'GRAD' calc(var(--orion-grade) + 0);
+  }
+  .orion-metadata {
+    font-family: var(--orion-font);
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 500;
+    font-stretch: 100%;
+    letter-spacing: 0.01em;
+    font-variation-settings: 'opsz' 13, 'GRAD' calc(var(--orion-grade) + 0);
+    font-variant-numeric: tabular-nums;
+  }
+  .orion-numeric {
+    font-family: var(--orion-font);
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    font-stretch: 100%;
+    letter-spacing: 0em;
+    font-variation-settings: 'opsz' 14, 'GRAD' calc(var(--orion-grade) + 0);
+    font-variant-numeric: tabular-nums;
+  }
+  .orion-subtitle {
+    font-family: var(--orion-font);
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: 500;
+    font-stretch: 100%;
+    letter-spacing: 0em;
+    font-variation-settings: 'opsz' 30, 'GRAD' calc(var(--orion-grade) + 40);
+  }
+}
+
+/* Subtitles: never rely on the font alone — always add a scrim or outline (see ACCESSIBILITY.md). */
+.orion-subtitle-box { display: inline; padding: 0.08em 0.4em; background: rgba(0, 0, 0, 0.75); color: #fff; box-decoration-break: clone; -webkit-box-decoration-break: clone; }

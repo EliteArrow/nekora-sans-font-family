@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="three.tf" format="2">
+  <advance width="595"/>
+  <anchor x="297" y="0" name="bottom"/>
+  <anchor x="490" y="0" name="ogonek"/>
+  <anchor x="297" y="742" name="top"/>
+  <outline>
+    <component base="three" xOffset="27"/>
+  </outline>
+</glyph>

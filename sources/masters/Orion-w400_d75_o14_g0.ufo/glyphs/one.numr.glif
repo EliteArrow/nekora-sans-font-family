@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="one.numr" format="2">
+  <advance width="200"/>
+  <anchor x="92" y="280" name="bottom"/>
+  <anchor x="122" y="280" name="ogonek"/>
+  <anchor x="92" y="802" name="top"/>
+  <outline>
+    <component base="one.dnom" yOffset="280"/>
+  </outline>
+</glyph>

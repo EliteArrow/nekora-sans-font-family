@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0151" format="2">
+  <advance width="574"/>
+  <unicode hex="0151"/>
+  <anchor x="287" y="0" name="bottom"/>
+  <anchor x="450" y="446" name="horn"/>
+  <anchor x="336" y="0" name="ogonek"/>
+  <anchor x="287" y="643" name="top"/>
+  <outline>
+    <component base="o"/>
+    <component base="hungarumlautcomb" xOffset="287"/>
+  </outline>
+</glyph>

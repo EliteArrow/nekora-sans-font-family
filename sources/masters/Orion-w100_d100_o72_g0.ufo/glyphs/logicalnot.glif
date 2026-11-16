@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="logicalnot" format="2">
+  <advance width="560"/>
+  <unicode hex="00AC"/>
+  <anchor x="280" y="0" name="bottom"/>
+  <anchor x="477" y="0" name="ogonek"/>
+  <anchor x="280" y="504" name="top"/>
+  <outline>
+    <contour>
+      <point x="487" y="341" type="line"/>
+      <point x="487" y="359" type="line"/>
+      <point x="74" y="359" type="line"/>
+      <point x="74" y="341" type="line"/>
+    </contour>
+    <contour>
+      <point x="487" y="175" type="line"/>
+      <point x="487" y="359" type="line"/>
+      <point x="469" y="359" type="line"/>
+      <point x="469" y="175" type="line"/>
+    </contour>
+  </outline>
+</glyph>

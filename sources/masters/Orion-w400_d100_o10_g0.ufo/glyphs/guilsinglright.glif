@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="guilsinglright" format="2">
+  <advance width="382"/>
+  <unicode hex="203A"/>
+  <anchor x="205" y="0" name="bottom"/>
+  <anchor x="251" y="0" name="ogonek"/>
+  <anchor x="205" y="530" name="top"/>
+  <outline>
+    <contour>
+      <point x="208" y="265" type="line"/>
+      <point x="110" y="148" type="line"/>
+      <point x="110" y="39" type="line"/>
+      <point x="300" y="265" type="line"/>
+      <point x="110" y="491" type="line"/>
+      <point x="110" y="382" type="line"/>
+    </contour>
+  </outline>
+</glyph>

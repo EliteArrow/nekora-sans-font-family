@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quotedbl" format="2">
+  <advance width="372"/>
+  <unicode hex="0022"/>
+  <anchor x="186" y="0" name="bottom"/>
+  <anchor x="266" y="0" name="ogonek"/>
+  <anchor x="186" y="742" name="top"/>
+  <outline>
+    <contour>
+      <point x="136" y="434" type="line"/>
+      <point x="150" y="742" type="line"/>
+      <point x="58" y="742" type="line"/>
+      <point x="71" y="434" type="line"/>
+    </contour>
+    <contour>
+      <point x="300" y="434" type="line"/>
+      <point x="314" y="742" type="line"/>
+      <point x="222" y="742" type="line"/>
+      <point x="236" y="434" type="line"/>
+    </contour>
+  </outline>
+</glyph>
