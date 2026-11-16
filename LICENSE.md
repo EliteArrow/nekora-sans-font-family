@@ -1,26 +1,26 @@
-# Orion — licence and provenance
+# Orange Sans — licence and provenance
 
 ## Summary
 
-The Orion fonts are licensed under the SIL Open Font License 1.1 (text below). No Reserved Font Name is declared.
+The Orange Sans fonts are licensed under the SIL Open Font License 1.1 (text below). No Reserved Font Name is declared.
 Images in `docs/images` are licensed under CC BY 4.0. This file is not legal advice.
 
 ## Provenance
 
-- Every outline in Orion is produced by a parametric generator written for this project.
+- Every outline in Orange Sans is produced by a parametric generator written for this project.
 - Four reference families (Gotham, Inter, Roboto Flex, Netflix Sans) were used for measurement only: vertical metrics, stem
   widths, advance widths and kerning magnitudes. No outline, glyph, kerning table, hinting or feature code from any of them was
   copied, traced, interpolated or converted, and none of their files is included in this repository.
 
-## The name Orion
+## The name
 
-“Orion” is used as a typeface name by other parties, among them Linotype (Orion, designed by Hermann Zapf) and several
-independent foundries. No trademark search or clearance has been carried out, and nothing here implies that the name is
-available. Treat “Orion” as a working title that may change.
+The family was first drafted under the working title “Orion” and renamed Orange Sans because that name was already in use for
+typefaces. No formal trademark search or clearance has been carried out for “Orange Sans” either, and nothing here implies
+that the name is available.
 
 ## SIL Open Font License 1.1
 
-Copyright 2026 The Orion Project Authors
+Copyright 2026 The Orange Sans Project Authors
 
 ```
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
